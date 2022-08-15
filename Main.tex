@@ -1,0 +1,110 @@
+% =================================================================== %
+%   Tesis (template)
+% =================================================================== %
+%
+%\documentclass[12pt,twoside,draft]{book}
+\documentclass[12pt,twoside]{book}
+
+% la opción draft es bueno activarla mientras uno está escribiendo y después hay que sacarla para la versión final 
+
+% packages LaTeX adicionales
+\usepackage[spanish]{babel}
+\usepackage{amsmath}
+\usepackage{amstext}
+\usepackage{amssymb}
+\usepackage{longtable}
+\usepackage{makeidx}
+\usepackage[dvips]{graphicx}
+
+%\input{setbmp}
+
+% idioma español
+\selectlanguage{spanish}
+
+% márgenes
+\setlength{\textwidth}{150mm}
+\setlength{\oddsidemargin}{9.6mm}
+\setlength{\evensidemargin}{-0.6mm}
+\setlength{\textheight}{217mm}
+\setlength{\topmargin}{-5.4mm}
+\setlength{\headheight}{10mm}
+\setlength{\headsep}{10mm}
+
+% doble espaciado entre lineas
+\def\baselinestretch{1.30}
+
+% profundidad en la tabla de contenidos
+\setcounter{tocdepth}{4}
+
+% hasta donde pone números en el seccionado (ej 1.3.4.1)
+\setcounter{secnumdepth}{4}
+
+% definiciones de comandos especiales
+\input{commands}
+\makeindex
+% =================================================================== %
+
+\begin{document}
+
+\nocite{*}
+
+\frontmatter\pagestyle{empty}
+
+\begin{titlepage}
+\input{titulo}
+\end{titlepage}
+
+\begin{titlepage}
+\input{titulo}
+\end{titlepage}
+
+
+% =================================================================== %
+
+\setcounter{page}{1}
+
+\input{resumen}
+
+\tableofcontents
+
+%\listoffigures
+
+% =================================================================== %
+\mainmatter\pagestyle{headings}
+
+
+\chapter{Introducci\'on} \setcounter{page}{1}\pagenumbering{arabic}
+    \label{capIntro}
+
+\input{introduccion}
+
+% =================================================================== %
+
+\chapter{Otro Capitulo} \setcounter{page}{1}\pagenumbering{arabic}
+    \label{otroCap}
+
+\input{otroCap}
+
+
+% =================================================================== %
+
+
+\chapter{Conclusiones y Resultados Obtenidos}
+    \label{capConc}
+
+\input{conclusiones}
+
+% =================================================================== %
+
+\appendix
+\chapter{Glosario}
+
+\input{glosario}
+
+%bibliografia
+\bibliography{tesis}
+\bibliographystyle{acm}
+%\bibliographystyle{alpha}
+
+
+\end{document}

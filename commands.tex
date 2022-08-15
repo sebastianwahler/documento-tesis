@@ -1,0 +1,75 @@
+%--------------------------------------------------------------------------
+% Comandos usados en la tesis
+%--------------------------------------------------------------------------
+
+
+%--------------------------------------------------------------------------
+% Definiciones de ambientes
+%--------------------------------------------------------------------------
+\newtheorem{defx}{Definici\'on}[chapter]
+\newtheorem{lemx}{Lema}[chapter]
+\newtheorem{corox}{Corolario}[chapter]
+\newtheorem{algx}{Algoritmo}[chapter]
+\newtheorem{ejemx}{Ejemplo}[chapter]
+\newtheorem{propx}{Proposici\'on}[chapter]
+\newtheorem{teox}{Teorema}[chapter]
+\newtheorem{obsx}{Observaci\'on}[chapter]
+
+
+\newenvironment{defi}[1]
+    {\begin{defx}\rm(\emph{#1})\\}
+    {\hfill $\blacksquare$ \end{defx}}
+
+\newenvironment{ejem}
+    {\begin{ejemx}\setlength{\parindent}{0pt}\rm}
+    {\hfill $\blacksquare$ \end{ejemx}}
+
+\newenvironment{alg}
+    {\begin{algx}\begin{rm}}
+    {\noindent \end{rm}\end{algx}}
+
+\newenvironment{dem}
+    {\textbf{Demostraci\'on:} \rm}
+    {\hfill $\square$}\medskip
+
+\newenvironment{lema}
+    {\begin{lemx}\rm}
+    {\hfill $\blacksquare$ \end{lemx}}
+
+\newenvironment{obser}
+    {\begin{obsx}\rm}
+    {\hfill $\blacksquare$ \end{obsx}}
+
+\newenvironment{prop}
+    {\begin{propx}\rm}
+    {\hfill $\blacksquare$ \end{propx}}
+
+\newenvironment{coro}
+    {\begin{corox}\rm}
+    {\hfill $\blacksquare$ \end{corox}}
+
+\newenvironment{teo}
+    {\begin{teox}\rm}
+    {\hfill $\blacksquare$ \end{teox}}
+
+\newenvironment{obs}
+    {\noindent {\textsc{Observaci\'on:\ }}}
+    {}
+
+%--------------------------------------------------------------------------
+% Algunas siglas
+%--------------------------------------------------------------------------
+\newcommand{\TMS}{{\small TMS}}
+\newcommand{\MTDR}{{\small MTDR}}
+\newcommand{\PLR}{{\small PLR}}
+\newcommand{\PLRO}{{\small PLRO}}
+\newcommand{\SAA}{{\small SAA}}
+\newcommand{\OSCAR}{{\small OSCAR}}
+%--------------------------------------------------------------------------
+% Comandos útiles
+%--------------------------------------------------------------------------
+
+\newcommand{\tab}{\hspace*{1cm}}
+\newcommand{\true}{\mbox{\textsc{true}}}
+\newcommand{\false}{\mbox{\textsc{false}}}
+

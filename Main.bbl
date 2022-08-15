@@ -1,0 +1,46 @@
+\begin{thebibliography}{1}
+
+\bibitem{Bondarenko:Dung:Kowalski:Toni:1997}
+{\sc Bondarenko, A., Dung, P.~M., Kowalski, R., and Toni, F.}
+\newblock {A}n abstract argumentation--theoretic approach to default reasoning.
+\newblock {\em Artificial Intelligence 93}, 1--2 (1997), 63--101.
+
+\bibitem{Capobianco:1999}
+{\sc Capobianco, M.}
+\newblock {E}l {R}ol de las {B}ases de {D}ial\'ectica en la {A}rgumentaci\'on
+  {R}ebatible. tesis de licenciatura, July 1999.
+
+\bibitem{Capobianco:Chesnevar:Simari:2001}
+{\sc Capobianco, M., Ches{\~n}evar, C.~I., and Simari, G.~R.}
+\newblock An argumentative formalism for implementing rational agents.
+\newblock In {\em Proceedings del 2do Workshop en Agentes y Sistemas
+  Inteligentes (WASI), 7mo Congreso Argentino de Ciencias de la Computaci\'on
+  (CACIC)\/} (El Calafate, Santa Cruz, Oct. 2001), Universidad Nacional de la
+  Patagonia Austral, pp.~1051--1062.
+
+\bibitem{Chesnevar:2001}
+{\sc Ches{\~n}evar, C.~I.}
+\newblock {\em {F}ormalizaci\'on de los {P}rocesos de {A}rgumentaci\'on
+  {R}ebatible como {S}istemas {D}eductivos {E}tiquetados}.
+\newblock PhD thesis, Departamento de Ciencias de la Computaci{\'o}n,
+  Universidad Nacional del Sur, Bah{\'{\i}}a Blanca, Argentina, Jan. 2001.
+
+\bibitem{Davis:1989}
+{\sc Davis, R.~E.}
+\newblock {\em Truth, Deduction, and Computation}.
+\newblock Computer Science Press, 1989.
+
+\bibitem{Garcia:1997}
+{\sc Garc\'{\i}a, A.~J.}
+\newblock {L}a {P}rogramaci\'on en {L}{\'o}gica {R}ebatible: su definici{\'o}n
+  te{\'o}rica y computacional.
+\newblock Master's thesis, Departamento de Ciencias de la Computaci{\'o}n,
+  Universidad Nacional del Sur, Bah{\'{\i}}a Blanca, Argentina, July 1997.
+
+\bibitem{Haenni:1998}
+{\sc Haenni, R.}
+\newblock Modeling uncertainty with propositional assumption-based systems.
+\newblock In {\em Applications of uncertainty formalisms}, A.~Hunter and
+  S.~Parsons, Eds. Springer-Verlag, 1998, pp.~446--470.
+
+\end{thebibliography}
