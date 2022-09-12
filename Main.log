@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.3.21)  15 AUG 2022 19:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.3.21)  12 SEP 2022 19:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -24,6 +24,17 @@ File: bk12.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
 \belowcaptionskip=\skip48
 \bibindent=\dimen138
 )
+(C:\Users\swahler\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+)
+(C:\Users\swahler\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
+Package: inputenc 2021/02/14 v1.3d Input encoding file
+\inpenc@prehook=\toks16
+\inpenc@posthook=\toks17
+
+(C:\Users\swahler\AppData\Local\Programs\MiKTeX\tex/latex/base\latin1.def
+File: latin1.def 2021/02/14 v1.3d Input encoding file
+))
 (C:\Users\swahler\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
 Package: babel 2022/02/26 3.73 The Babel package
 \babel@savecnt=\count194
@@ -43,7 +54,7 @@ File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
 (C:\Users\swahler\AppData\Local\Programs\MiKTeX\tex/latex/babel-spanish\spanish
 .ldf
 Language: spanish.ldf 2021/05/27 v5.0q Spanish support from the babel system
-\es@quottoks=\toks16
+\es@quottoks=\toks18
 \es@quotdepth=\count196
 Package babel Info: Making " an active character on input line 570.
 Package babel Info: Making . an active character on input line 675.
@@ -60,7 +71,7 @@ Package: amstext 2021/08/26 v2.01 AMS text
 
 (C:\Users\swahler\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks17
+\@emptytoks=\toks19
 \ex@=\dimen140
 ))
 (C:\Users\swahler\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
@@ -90,21 +101,21 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
 \dotsspace@=\muskip16
 \c@parentequation=\count270
 \dspbrk@lvl=\count271
-\tag@help=\toks18
+\tag@help=\toks20
 \row@=\count272
 \column@=\count273
 \maxfields@=\count274
-\andhelp@=\toks19
+\andhelp@=\toks21
 \eqnshift@=\dimen143
 \alignsep@=\dimen144
 \tagshift@=\dimen145
 \tagwidth@=\dimen146
 \totwidth@=\dimen147
 \lineht@=\dimen148
-\@envbody=\toks20
+\@envbody=\toks22
 \multlinegap=\skip50
 \multlinetaggap=\skip51
-\mathdisplay@stack=\toks21
+\mathdisplay@stack=\toks23
 LaTeX Info: Redefining \[ on input line 2938.
 LaTeX Info: Redefining \] on input line 2939.
 )
@@ -136,7 +147,7 @@ Package: longtable 2021-09-01 v4.17 Multi-page Table package (DPC)
 \LT@rows=\count277
 \c@LT@tables=\count278
 \c@LT@chunks=\count279
-\LT@p@ftn=\toks22
+\LT@p@ftn=\toks24
 )
 (C:\Users\swahler\AppData\Local\Programs\MiKTeX\tex/latex/base\makeidx.sty
 Package: makeidx 2021/10/04 v1.0m Standard LaTeX package
@@ -145,7 +156,7 @@ Package: makeidx 2021/10/04 v1.0m Standard LaTeX package
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
 (C:\Users\swahler\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks23
+\KV@toks@=\toks25
 )
 (C:\Users\swahler\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
 Package: graphics 2021/03/04 v1.4d Standard LaTeX Graphics (DPC,SPQR)
@@ -165,20 +176,456 @@ File: dvips.def 2017/06/20 v3.1d Graphics/color driver for dvips
 \Gin@req@height=\dimen150
 \Gin@req@width=\dimen151
 )
-LaTeX Info: Redefining \. on input line 22.
-LaTeX Info: Redefining \% on input line 22.
- (commands.tex
-\c@defx=\count280
-\c@lemx=\count281
-\c@corox=\count282
-\c@algx=\count283
-\c@ejemx=\count284
-\c@propx=\count285
-\c@teox=\count286
-\c@obsx=\count287
+(C:\Users\swahler\AppData\Local\Programs\MiKTeX\tex/latex/todonotes\todonotes.s
+ty
+Package: todonotes 2021/06/04 v1.1.5 Todonotes source and documentation.
+Package: todonotes 2021/06/04
+ (C:\Users\swahler\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
+Package: ifthen 2020/11/24 v1.1c Standard LaTeX ifthen package (DPC)
 )
-\@indexfile=\write3
-\openout3 = `Main.idx'.
+(C:\Users\swahler\AppData\Local\Programs\MiKTeX\tex/latex/xkeyval\xkeyval.sty
+Package: xkeyval 2020/11/20 v2.8 package option processing (HA)
+
+(C:\Users\swahler\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkeyval.tex
+
+(C:\Users\swahler\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkvutils.te
+x
+\XKV@toks=\toks26
+\XKV@tempa@toks=\toks27
+)
+\XKV@depth=\count280
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+(C:\Users\swahler\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
+Package: xcolor 2021/10/31 v2.13 LaTeX color extensions (UK)
+
+(C:\Users\swahler\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cf
+g
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 227.
+
+(C:\Users\swahler\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.d
+ef
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1368.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1370.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1371.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1372.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1373.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1374.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1375.
+)
+(C:\Users\swahler\AppData\Local\Programs\MiKTeX\tex/latex/pgf/frontendlayer\tik
+z.sty
+(C:\Users\swahler\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgf.st
+y
+(C:\Users\swahler\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfrcs.
+sty
+(C:\Users\swahler\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfut
+il-common.tex
+\pgfutil@everybye=\toks28
+\pgfutil@tempdima=\dimen152
+\pgfutil@tempdimb=\dimen153
+
+(C:\Users\swahler\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfut
+il-common-lists.tex))
+(C:\Users\swahler\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfut
+il-latex.def
+\pgfutil@abb=\box57
+)
+(C:\Users\swahler\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfrc
+s.code.tex
+(C:\Users\swahler\AppData\Local\Programs\MiKTeX\tex/generic/pgf\pgf.revision.te
+x)
+Package: pgfrcs 2021/05/15 v3.1.9a (3.1.9a)
+))
+Package: pgf 2021/05/15 v3.1.9a (3.1.9a)
+
+(C:\Users\swahler\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgfcor
+e.sty
+(C:\Users\swahler\AppData\Local\Programs\MiKTeX\tex/latex/pgf/systemlayer\pgfsy
+s.sty
+(C:\Users\swahler\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf
+sys.code.tex
+Package: pgfsys 2021/05/15 v3.1.9a (3.1.9a)
+
+(C:\Users\swahler\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfke
+ys.code.tex
+\pgfkeys@pathtoks=\toks29
+\pgfkeys@temptoks=\toks30
+
+(C:\Users\swahler\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfke
+ysfiltered.code.tex
+\pgfkeys@tmptoks=\toks31
+))
+\pgf@x=\dimen154
+\pgf@y=\dimen155
+\pgf@xa=\dimen156
+\pgf@ya=\dimen157
+\pgf@xb=\dimen158
+\pgf@yb=\dimen159
+\pgf@xc=\dimen160
+\pgf@yc=\dimen161
+\pgf@xd=\dimen162
+\pgf@yd=\dimen163
+\w@pgf@writea=\write3
+\r@pgf@reada=\read3
+\c@pgf@counta=\count281
+\c@pgf@countb=\count282
+\c@pgf@countc=\count283
+\c@pgf@countd=\count284
+\t@pgf@toka=\toks32
+\t@pgf@tokb=\toks33
+\t@pgf@tokc=\toks34
+\pgf@sys@id@count=\count285
+
+(C:\Users\swahler\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf
+.cfg
+File: pgf.cfg 2021/05/15 v3.1.9a (3.1.9a)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+(C:\Users\swahler\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf
+sys-pdftex.def
+File: pgfsys-pdftex.def 2021/05/15 v3.1.9a (3.1.9a)
+
+(C:\Users\swahler\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf
+sys-common-pdf.def
+File: pgfsys-common-pdf.def 2021/05/15 v3.1.9a (3.1.9a)
+)))
+(C:\Users\swahler\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf
+syssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfsyssoftpath@smallbuffer@items=\count286
+\pgfsyssoftpath@bigbuffer@items=\count287
+)
+(C:\Users\swahler\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf
+sysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+))
+(C:\Users\swahler\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfc
+ore.code.tex
+Package: pgfcore 2021/05/15 v3.1.9a (3.1.9a)
+
+(C:\Users\swahler\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.co
+de.tex
+(C:\Users\swahler\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathcal
+c.code.tex
+(C:\Users\swahler\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathuti
+l.code.tex)
+(C:\Users\swahler\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathpar
+ser.code.tex
+\pgfmath@dimen=\dimen164
+\pgfmath@count=\count288
+\pgfmath@box=\box58
+\pgfmath@toks=\toks35
+\pgfmath@stack@operand=\toks36
+\pgfmath@stack@operation=\toks37
+)
+(C:\Users\swahler\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfun
+ctions.code.tex
+(C:\Users\swahler\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfun
+ctions.basic.code.tex)
+(C:\Users\swahler\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfun
+ctions.trigonometric.code.tex)
+(C:\Users\swahler\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfun
+ctions.random.code.tex)
+(C:\Users\swahler\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfun
+ctions.comparison.code.tex)
+(C:\Users\swahler\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfun
+ctions.base.code.tex)
+(C:\Users\swahler\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfun
+ctions.round.code.tex)
+(C:\Users\swahler\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfun
+ctions.misc.code.tex)
+(C:\Users\swahler\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfun
+ctions.integerarithmetics.code.tex)))
+(C:\Users\swahler\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathflo
+at.code.tex
+\c@pgfmathroundto@lastzeros=\count289
+))
+(C:\Users\swahler\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfint.cod
+e.tex)
+(C:\Users\swahler\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfc
+orepoints.code.tex
+File: pgfcorepoints.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@picminx=\dimen165
+\pgf@picmaxx=\dimen166
+\pgf@picminy=\dimen167
+\pgf@picmaxy=\dimen168
+\pgf@pathminx=\dimen169
+\pgf@pathmaxx=\dimen170
+\pgf@pathminy=\dimen171
+\pgf@pathmaxy=\dimen172
+\pgf@xx=\dimen173
+\pgf@xy=\dimen174
+\pgf@yx=\dimen175
+\pgf@yy=\dimen176
+\pgf@zx=\dimen177
+\pgf@zy=\dimen178
+)
+(C:\Users\swahler\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfc
+orepathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@path@lastx=\dimen179
+\pgf@path@lasty=\dimen180
+)
+(C:\Users\swahler\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfc
+orepathusage.code.tex
+File: pgfcorepathusage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@shorten@end@additional=\dimen181
+\pgf@shorten@start@additional=\dimen182
+)
+(C:\Users\swahler\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfc
+orescopes.code.tex
+File: pgfcorescopes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfpic=\box59
+\pgf@hbox=\box60
+\pgf@layerbox@main=\box61
+\pgf@picture@serial@count=\count290
+)
+(C:\Users\swahler\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfc
+oregraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgflinewidth=\dimen183
+)
+(C:\Users\swahler\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfc
+oretransformations.code.tex
+File: pgfcoretransformations.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@pt@x=\dimen184
+\pgf@pt@y=\dimen185
+\pgf@pt@temp=\dimen186
+)
+(C:\Users\swahler\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfc
+orequick.code.tex
+File: pgfcorequick.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(C:\Users\swahler\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfc
+oreobjects.code.tex
+File: pgfcoreobjects.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(C:\Users\swahler\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfc
+orepathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(C:\Users\swahler\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfc
+orearrows.code.tex
+File: pgfcorearrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfarrowsep=\dimen187
+)
+(C:\Users\swahler\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfc
+oreshade.code.tex
+File: pgfcoreshade.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@max=\dimen188
+\pgf@sys@shading@range@num=\count291
+\pgf@shadingcount=\count292
+)
+(C:\Users\swahler\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfc
+oreimage.code.tex
+File: pgfcoreimage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+
+(C:\Users\swahler\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfc
+oreexternal.code.tex
+File: pgfcoreexternal.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfexternal@startupbox=\box62
+))
+(C:\Users\swahler\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfc
+orelayers.code.tex
+File: pgfcorelayers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(C:\Users\swahler\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfc
+oretransparency.code.tex
+File: pgfcoretransparency.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(C:\Users\swahler\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfc
+orepatterns.code.tex
+File: pgfcorepatterns.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(C:\Users\swahler\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfc
+orerdf.code.tex
+File: pgfcorerdf.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)))
+(C:\Users\swahler\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodu
+leshapes.code.tex
+File: pgfmoduleshapes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfnodeparttextbox=\box63
+)
+(C:\Users\swahler\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodu
+leplot.code.tex
+File: pgfmoduleplot.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(C:\Users\swahler\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgf
+comp-version-0-65.sty
+Package: pgfcomp-version-0-65 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@nodesepstart=\dimen189
+\pgf@nodesepend=\dimen190
+)
+(C:\Users\swahler\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgf
+comp-version-1-18.sty
+Package: pgfcomp-version-1-18 2021/05/15 v3.1.9a (3.1.9a)
+))
+(C:\Users\swahler\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgffor.
+sty
+(C:\Users\swahler\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfkeys
+.sty
+(C:\Users\swahler\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfke
+ys.code.tex))
+(C:\Users\swahler\AppData\Local\Programs\MiKTeX\tex/latex/pgf/math\pgfmath.sty
+(C:\Users\swahler\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.co
+de.tex))
+(C:\Users\swahler\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgffo
+r.code.tex
+Package: pgffor 2021/05/15 v3.1.9a (3.1.9a)
+
+(C:\Users\swahler\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.co
+de.tex)
+\pgffor@iter=\dimen191
+\pgffor@skip=\dimen192
+\pgffor@stack=\toks38
+\pgffor@toks=\toks39
+))
+(C:\Users\swahler\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/t
+ikz\tikz.code.tex
+Package: tikz 2021/05/15 v3.1.9a (3.1.9a)
+
+(C:\Users\swahler\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgfli
+braryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@plot@mark@count=\count293
+\pgfplotmarksize=\dimen193
+)
+\tikz@lastx=\dimen194
+\tikz@lasty=\dimen195
+\tikz@lastxsaved=\dimen196
+\tikz@lastysaved=\dimen197
+\tikz@lastmovetox=\dimen198
+\tikz@lastmovetoy=\dimen199
+\tikzleveldistance=\dimen256
+\tikzsiblingdistance=\dimen257
+\tikz@figbox=\box64
+\tikz@figbox@bg=\box65
+\tikz@tempbox=\box66
+\tikz@tempbox@bg=\box67
+\tikztreelevel=\count294
+\tikznumberofchildren=\count295
+\tikznumberofcurrentchild=\count296
+\tikz@fig@count=\count297
+
+(C:\Users\swahler\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodu
+lematrix.code.tex
+File: pgfmodulematrix.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfmatrixcurrentrow=\count298
+\pgfmatrixcurrentcolumn=\count299
+\pgf@matrix@numberofcolumns=\count300
+)
+\tikz@expandcount=\count301
+
+(C:\Users\swahler\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/t
+ikz/libraries\tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)))
+(C:\Users\swahler\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/t
+ikz/libraries\tikzlibrarypositioning.code.tex
+File: tikzlibrarypositioning.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(C:\Users\swahler\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count302
+\calc@Bcount=\count303
+\calc@Adimen=\dimen258
+\calc@Bdimen=\dimen259
+\calc@Askip=\skip56
+\calc@Bskip=\skip57
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count304
+\calc@Cskip=\skip58
+)
+\c@@todonotes@numberoftodonotes=\count305
+)
+(C:\Users\swahler\AppData\Local\Programs\MiKTeX\tex/latex/pgf/frontendlayer\Tik
+z.sty
+(C:\Users\swahler\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/t
+ikz\tikz.code.tex
+
+LaTeX Warning: You have requested package `Tikz',
+               but the package provides `tikz'.
+
+Package: tikz 2021/05/15 v3.1.9a (3.1.9a)
+\tikz@lastx=\dimen260
+\tikz@lasty=\dimen261
+\tikz@lastxsaved=\dimen262
+\tikz@lastysaved=\dimen263
+\tikz@lastmovetox=\dimen264
+\tikz@lastmovetoy=\dimen265
+\tikzleveldistance=\dimen266
+\tikzsiblingdistance=\dimen267
+\tikz@figbox=\box68
+\tikz@figbox@bg=\box69
+\tikz@tempbox=\box70
+\tikz@tempbox@bg=\box71
+\tikztreelevel=\count306
+\tikznumberofchildren=\count307
+\tikznumberofcurrentchild=\count308
+\tikz@fig@count=\count309
+\tikz@expandcount=\count310
+))
+(C:\Users\swahler\AppData\Local\Programs\MiKTeX\tex/latex/pspicture\pspicture.s
+ty
+Package: pspicture 1999/04/11/ v2.02 Picture mode via PS specials (DPC)
+\@arrowlength=\dimen268
+)
+(C:\Users\swahler\AppData\Local\Programs\MiKTeX\tex/latex/subfigure\subfigure.s
+ty
+Package: subfigure 2002/07/30 v2.1.4 subfigure package
+\subfigtopskip=\skip59
+\subfigcapskip=\skip60
+\subfigcaptopadj=\dimen269
+\subfigbottomskip=\skip61
+\subfigcapmargin=\dimen270
+\subfiglabelskip=\skip62
+\c@subfigure=\count311
+\c@lofdepth=\count312
+\c@subtable=\count313
+\c@lotdepth=\count314
+
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+
+(C:\Users\swahler\AppData\Local\Programs\MiKTeX\tex/latex/subfigure\subfigure.c
+fg)
+\subfig@top=\skip63
+\subfig@bottom=\skip64
+) (C:\Users\swahler\AppData\Local\Programs\MiKTeX\tex/generic/soul\soul.sty
+Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
+\SOUL@word=\toks40
+\SOUL@lasttoken=\toks41
+\SOUL@cmds=\toks42
+\SOUL@buffer=\toks43
+\SOUL@token=\toks44
+\SOUL@spaceskip=\skip65
+\SOUL@ttwidth=\dimen271
+\SOUL@uldp=\dimen272
+\SOUL@ulht=\dimen273
+)
+LaTeX Info: Redefining \. on input line 32.
+LaTeX Info: Redefining \% on input line 32.
+(commands.tex
+\c@defx=\count315
+\c@lemx=\count316
+\c@corox=\count317
+\c@algx=\count318
+\c@ejemx=\count319
+\c@propx=\count320
+\c@teox=\count321
+\c@obsx=\count322
+)
+\@indexfile=\write4
+\openout4 = `Main.idx'.
 
 
 Writing index file Main.idx
@@ -186,8 +633,8 @@ Writing index file Main.idx
 (C:\Users\swahler\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-p
 dftex.def
 File: l3backend-pdftex.def 2022-02-07 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count288
-\l__pdf_internal_box=\box57
+\l__color_backend_stack_int=\count323
+\l__pdf_internal_box=\box72
 ) (Main.aux
 LaTeX Info: Redefining \. on input line 9.
 LaTeX Info: Redefining \% on input line 9.
@@ -196,48 +643,85 @@ LaTeX Info: Redefining \% on input line 10.
 )
 \openout1 = `Main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Info: Redefining \. on input line 47.
-LaTeX Info: Redefining \% on input line 47.
- (titulo.tex
-File: UniLogo.eps Graphic file (type eps)
- <UniLogo.eps> [1
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Info: Redefining \. on input line 57.
+LaTeX Info: Redefining \% on input line 57.
+
+(C:\Users\swahler\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.
+mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count324
+\scratchdimen=\dimen274
+\scratchbox=\box73
+\nofMPsegments=\count325
+\nofMParguments=\count326
+\everyMPshowfont=\toks45
+\MPscratchCnt=\count327
+\MPscratchDim=\dimen275
+\MPnumerator=\count328
+\makeMPintoPDFobject=\count329
+\everyMPtoPDFconversion=\toks46
+)
+(C:\Users\swahler\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf
+-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(C:\Users\swahler\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys
+.cfg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+)) (titulo.tex
+<UniLogo.pdf, id=4, 732.7375pt x 705.63625pt>
+File: UniLogo.pdf Graphic file (type pdf)
+<use UniLogo.pdf>
+Package pdftex.def Info: UniLogo.pdf  used on input line 4.
+(pdftex.def)             Requested size: 113.80792pt x 113.80853pt.
+ [1
 Non-PDF special ignored!
 <special> papersize=614.295pt,794.96999pt
 
-
-
-
 Non-PDF special ignored!
-<special> PSfile="UniLogo.eps" llx=14 lly=14 urx=744 ury=717 rwi=1133 rhi=1...
-{C:/Users/swahler/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]) [2
+<special> header=pspicture.ps
+
+
+
+{C:/Users/swahler/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./UniLogo.
+pdf>]) [2
+
+] (titulo.tex
+File: UniLogo.pdf Graphic file (type pdf)
+<use UniLogo.pdf>
+Package pdftex.def Info: UniLogo.pdf  used on input line 4.
+(pdftex.def)             Requested size: 113.80792pt x 113.80853pt.
+ [1
+
+]) (resumen.tex
+Underfull \vbox (badness 1728) has occurred while \output is active []
+
+ [1
 
 ]
-(titulo.tex
-File: UniLogo.eps Graphic file (type eps)
- <UniLogo.eps> [1
+LaTeX Font Info:    Trying to load font information for T1+cmss on input line 1
+1.
 
-
-Non-PDF special ignored!
-<special> PSfile="UniLogo.eps" llx=14 lly=14 urx=744 ury=717 rwi=1133 rhi=1...
-]) (resumen.tex) [1
-
-] [2
-
-] (Main.toc
+(C:\Users\swahler\AppData\Local\Programs\MiKTeX\tex/latex/base\t1cmss.fd
+File: t1cmss.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+))
+[2] (Main.toc
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 LaTeX Info: Redefining \. on input line 2.
@@ -251,89 +735,470 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 4.
 
 (C:\Users\swahler\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-))
-\tf@toc=\write4
-\openout4 = `Main.toc'.
+)
+[3
 
+])
+\tf@toc=\write5
+\openout5 = `Main.toc'.
 
-[3] [4
-
-]
+ [4]
 Cap\'{\i }tulo 1.
 (introduccion.tex
-Underfull \hbox (badness 10000) in paragraph at lines 29--36
 
- []
+LaTeX Warning: Citation `ref_article1' on page 1 undefined on input line 17.
 
 [1
 
-]
-File: UniLogo.eps Graphic file (type eps)
- <UniLogo.eps>)
-LaTeX Info: Redefining \. on input line 83.
-LaTeX Info: Redefining \% on input line 83.
- [2
-Non-PDF special ignored!
-<special> PSfile="UniLogo.eps" llx=14 lly=14 urx=744 ury=717 rwi=850 rhi=85...
-]
-Cap\'{\i }tulo 2.
-(otroCap.tex)
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [1
 
 ]
-LaTeX Info: Redefining \. on input line 92.
-LaTeX Info: Redefining \% on input line 92.
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 3
+1.
+ (C:\Users\swahler\AppData\Local\Programs\MiKTeX\tex/latex/base\t1cmtt.fd
+File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+Underfull \hbox (badness 10000) in paragraph at lines 38--45
 
+ []
+
+LaTeX Info: Redefining \. on input line 45.
+LaTeX Info: Redefining \% on input line 45.
 [2]
-Cap\'{\i }tulo 3.
-(conclusiones.tex) [3
-
-]
-LaTeX Info: Redefining \. on input line 100.
-LaTeX Info: Redefining \% on input line 100.
+File: UniLogo.pdf Graphic file (type pdf)
+<use UniLogo.pdf>
+Package pdftex.def Info: UniLogo.pdf  used on input line 53.
+(pdftex.def)             Requested size: 85.35315pt x 85.35101pt.
+)
+LaTeX Info: Redefining \. on input line 93.
+LaTeX Info: Redefining \% on input line 93.
+ [3]
+LaTeX Info: Redefining \. on input line 93.
+LaTeX Info: Redefining \% on input line 93.
  [4
 
 ]
+Cap\'{\i }tulo 2.
+(sna.tex
+
+LaTeX Warning: Citation `ref_article2' on page 1 undefined on input line 3.
+
+
+LaTeX Warning: Citation `ref_article3' on page 1 undefined on input line 3.
+
+
+LaTeX Warning: Citation `ref_article4' on page 1 undefined on input line 3.
+
+
+LaTeX Warning: Citation `ref_article5' on page 1 undefined on input line 5.
+
+
+LaTeX Warning: Citation `ref_article6' on page 1 undefined on input line 5.
+
+[1]
+
+LaTeX Warning: Citation `ref_article7' on page 2 undefined on input line 7.
+
+
+LaTeX Warning: Citation `ref_article8' on page 2 undefined on input line 7.
+
+
+LaTeX Warning: Citation `ref_article9' on page 2 undefined on input line 7.
+
+
+LaTeX Warning: Citation `ref_article10' on page 2 undefined on input line 7.
+
+
+LaTeX Warning: Citation `ref_article11' on page 2 undefined on input line 7.
+
+
+LaTeX Warning: Citation `ref_article12' on page 2 undefined on input line 7.
+
+
+LaTeX Warning: Citation `ref_article13' on page 2 undefined on input line 7.
+
+
+LaTeX Warning: Citation `ref_article14' on page 2 undefined on input line 7.
+
+
+LaTeX Warning: Citation `ref_article15' on page 2 undefined on input line 7.
+
+
+LaTeX Warning: Citation `ref_article16' on page 2 undefined on input line 7.
+
+
+LaTeX Warning: Citation `ref_article17' on page 2 undefined on input line 7.
+
+
+LaTeX Warning: Citation `ref_article18' on page 2 undefined on input line 7.
+
+
+LaTeX Warning: Citation `ref_article19' on page 2 undefined on input line 7.
+
+
+LaTeX Warning: Citation `ref_article20' on page 2 undefined on input line 7.
+
+
+LaTeX Warning: Citation `ref_article21' on page 2 undefined on input line 7.
+
+
+LaTeX Warning: Citation `ref_article22' on page 2 undefined on input line 7.
+
+
+LaTeX Warning: Citation `ref_article23' on page 2 undefined on input line 7.
+
+
+LaTeX Warning: Citation `ref_article24' on page 2 undefined on input line 7.
+
+
+LaTeX Warning: Citation `ref_article25' on page 2 undefined on input line 7.
+
+LaTeX Info: Redefining \. on input line 12.
+LaTeX Info: Redefining \% on input line 12.
+[2]
+
+LaTeX Warning: Citation `ref_article26' on page 3 undefined on input line 13.
+
+
+LaTeX Warning: Citation `ref_article27' on page 3 undefined on input line 13.
+
+
+LaTeX Warning: Citation `ref_article28' on page 3 undefined on input line 13.
+
+
+LaTeX Warning: Citation `ref_article29' on page 3 undefined on input line 13.
+
+) [3]
+LaTeX Info: Redefining \. on input line 101.
+LaTeX Info: Redefining \% on input line 101.
+ [4
+
+]
+Cap\'{\i }tulo 3.
+(coiron.tex
+
+LaTeX Warning: Citation `ref_article30' on page 1 undefined on input line 1.
+
+[1]
+<images//coiron-logo.png, id=77, 150.5625pt x 65.24374pt>
+File: images//coiron-logo.png Graphic file (type png)
+<use images//coiron-logo.png>
+Package pdftex.def Info: images//coiron-logo.png  used on input line 24.
+(pdftex.def)             Requested size: 150.56212pt x 65.24358pt.
+LaTeX Info: Redefining \. on input line 35.
+LaTeX Info: Redefining \% on input line 35.
+ [2 <./images//coiron-logo.png>]
+<images//coiron-vinculos.png, id=83, 232.578pt x 135.0135pt>
+File: images//coiron-vinculos.png Graphic file (type png)
+<use images//coiron-vinculos.png>
+Package pdftex.def Info: images//coiron-vinculos.png  used on input line 42.
+(pdftex.def)             Requested size: 232.57742pt x 135.01315pt.
+LaTeX Info: Redefining \. on input line 58.
+LaTeX Info: Redefining \% on input line 58.
+ [3 <./images//coiron-vinculos.png>]
+
+LaTeX Warning: Reference `fig:coiro-menues' on page 4 undefined on input line 7
+5.
+
+<images//coiron-menues.png, id=88, 615.0478pt x 311.66437pt>
+File: images//coiron-menues.png Graphic file (type png)
+<use images//coiron-menues.png>
+Package pdftex.def Info: images//coiron-menues.png  used on input line 79.
+(pdftex.def)             Requested size: 426.79134pt x 216.27083pt.
+LaTeX Info: Redefining \. on input line 89.
+LaTeX Info: Redefining \% on input line 89.
+[4]
+<images//coiron-herramientas.png, id=93, 1520.68124pt x 621.07031pt>
+File: images//coiron-herramientas.png Graphic file (type png)
+<use images//coiron-herramientas.png>
+Package pdftex.def Info: images//coiron-herramientas.png  used on input line 96
+.
+(pdftex.def)             Requested size: 426.79134pt x 174.306pt.
+LaTeX Info: Redefining \. on input line 108.
+LaTeX Info: Redefining \% on input line 108.
+ [5 <./images//coiron-menues.png>]
+
+LaTeX Warning: Citation `ref_article31' on page 6 undefined on input line 109.
+
+LaTeX Info: Redefining \. on input line 118.
+LaTeX Info: Redefining \% on input line 118.
+[6 <./images//coiron-herramientas.png>] (descripcion-datos.tex
+LaTeX Info: Redefining \. on input line 2.
+LaTeX Info: Redefining \% on input line 2.
+ [7]
+LaTeX Info: Redefining \. on input line 32.
+LaTeX Info: Redefining \% on input line 32.
+ [8]
+<images//grafo-30000-completo.png, id=109, 703.87968pt x 637.63219pt>
+File: images//grafo-30000-completo.png Graphic file (type png)
+<use images//grafo-30000-completo.png>
+Package pdftex.def Info: images//grafo-30000-completo.png  used on input line 3
+5.
+(pdftex.def)             Requested size: 426.79134pt x 386.62pt.
+<images//grafo-10000-solo.png, id=110, 749.80125pt x 678.28406pt>
+File: images//grafo-10000-solo.png Graphic file (type png)
+<use images//grafo-10000-solo.png>
+Package pdftex.def Info: images//grafo-10000-solo.png  used on input line 70.
+(pdftex.def)             Requested size: 72.26999pt x 65.36913pt.
+<images//grafo-1000-solo.png, id=111, 797.22844pt x 676.77844pt>
+File: images//grafo-1000-solo.png Graphic file (type png)
+<use images//grafo-1000-solo.png>
+Package pdftex.def Info: images//grafo-1000-solo.png  used on input line 77.
+(pdftex.def)             Requested size: 72.26999pt x 61.35147pt.
+<images//grafo-100-solo.png, id=112, 1088.56688pt x 679.78969pt>
+File: images//grafo-100-solo.png Graphic file (type png)
+<use images//grafo-100-solo.png>
+Package pdftex.def Info: images//grafo-100-solo.png  used on input line 84.
+(pdftex.def)             Requested size: 72.26999pt x 45.12141pt.
+
+Overfull \hbox (11.39726pt too wide) in paragraph at lines 70--86
+ [][][][] 
+ []
+
+LaTeX Info: Redefining \. on input line 91.
+LaTeX Info: Redefining \% on input line 91.
+[9]
+LaTeX Info: Redefining \. on input line 91.
+LaTeX Info: Redefining \% on input line 91.
+ [10 <./images//grafo-30000-completo.png>]
+<images//grafo-10000-completo.png, id=120, 883.04906pt x 677.53125pt>
+File: images//grafo-10000-completo.png Graphic file (type png)
+<use images//grafo-10000-completo.png>
+Package pdftex.def Info: images//grafo-10000-completo.png  used on input line 1
+00.
+(pdftex.def)             Requested size: 72.26999pt x 55.4442pt.
+<images//grafo-1000-completo.png, id=121, 878.53218pt x 676.77844pt>
+File: images//grafo-1000-completo.png Graphic file (type png)
+<use images//grafo-1000-completo.png>
+Package pdftex.def Info: images//grafo-1000-completo.png  used on input line 10
+7.
+(pdftex.def)             Requested size: 72.26999pt x 55.67174pt.
+<images//grafo-100-completo.png, id=122, 830.35219pt x 676.77844pt>
+File: images//grafo-100-completo.png Graphic file (type png)
+<use images//grafo-100-completo.png>
+Package pdftex.def Info: images//grafo-100-completo.png  used on input line 114
+.
+(pdftex.def)             Requested size: 72.26999pt x 58.90402pt.
+
+Overfull \hbox (11.39726pt too wide) in paragraph at lines 100--116
+ [][][][] 
+ []
+
+<images//grafo-10-completo.png, id=123, 925.95938pt x 677.53125pt>
+File: images//grafo-10-completo.png Graphic file (type png)
+<use images//grafo-10-completo.png>
+Package pdftex.def Info: images//grafo-10-completo.png  used on input line 125.
+
+(pdftex.def)             Requested size: 426.79134pt x 312.28845pt.
+<images//grafo-5-solo.png, id=124, 713.66624pt x 564.60938pt>
+File: images//grafo-5-solo.png Graphic file (type png)
+<use images//grafo-5-solo.png>
+Package pdftex.def Info: images//grafo-5-solo.png  used on input line 140.
+(pdftex.def)             Requested size: 72.26999pt x 57.17068pt.
+<images//grafo-5-completo.png, id=125, 1078.78032pt x 625.58719pt>
+File: images//grafo-5-completo.png Graphic file (type png)
+<use images//grafo-5-completo.png>
+Package pdftex.def Info: images//grafo-5-completo.png  used on input line 147.
+(pdftex.def)             Requested size: 72.26999pt x 41.90553pt.
+
+Overfull \hbox (7.8314pt too wide) in paragraph at lines 140--149
+ [][][] 
+ []
+
+LaTeX Info: Redefining \. on input line 151.
+LaTeX Info: Redefining \% on input line 151.
+[11 <./images//grafo-10000-solo.png> <./images//grafo-1000-solo.png> <./images/
+/grafo-100-solo.png> <./images//grafo-10000-completo.png> <./images//grafo-1000
+-completo.png> <./images//grafo-100-completo.png>]
+LaTeX Info: Redefining \. on input line 151.
+LaTeX Info: Redefining \% on input line 151.
+ [12 <./images//grafo-10-completo.png>]
+
+LaTeX Warning: Citation `ref_article32' on page 13 undefined on input line 153.
+
+
+
+LaTeX Warning: Citation `ref_article34' on page 13 undefined on input line 155.
+
+
+LaTeX Info: Redefining \. on input line 156.
+LaTeX Info: Redefining \% on input line 156.
+[13 <./images//grafo-5-solo.png> <./images//grafo-5-completo.png>]
+
+LaTeX Warning: Citation `ref_visjs' on page 14 undefined on input line 161.
+
+))
+LaTeX Info: Redefining \. on input line 109.
+LaTeX Info: Redefining \% on input line 109.
+ [14]
+Cap\'{\i }tulo 4.
+(visualizacion.tex) [1
+
+]
+LaTeX Info: Redefining \. on input line 117.
+LaTeX Info: Redefining \% on input line 117.
+ [2
+
+]
+Cap\'{\i }tulo 5.
+(desarrollo.tex [1]
+LaTeX Info: Redefining \. on input line 27.
+LaTeX Info: Redefining \% on input line 27.
+ [2]
+<images//hermanos-curruman.png, id=151, 1092.33093pt x 677.53125pt>
+File: images//hermanos-curruman.png Graphic file (type png)
+<use images//hermanos-curruman.png>
+Package pdftex.def Info: images//hermanos-curruman.png  used on input line 34.
+(pdftex.def)             Requested size: 426.79134pt x 264.72202pt.
+
+
+LaTeX Warning: Citation `ma2014exploring' on page 3 undefined on input line 44.
+
+
+
+LaTeX Warning: Citation `dubinsky1984mathematical' on page 3 undefined on input
+ line 47.
+
+
+Underfull \vbox (badness 2856) has occurred while \output is active []
+
+ [3]
+
+LaTeX Warning: Citation `brin1998anatomy' on page 4 undefined on input line 51.
+
+
+
+LaTeX Warning: Citation `page1999pagerank' on page 4 undefined on input line 51
+.
+
+
+LaTeX Warning: Citation `gobel1974random' on page 4 undefined on input line 51.
+
+
+
+LaTeX Warning: Citation `franceschet2011pagerank' on page 4 undefined on input 
+line 51.
+
+
+LaTeX Warning: Citation `lin2010data' on page 4 undefined on input line 51.
+
+LaTeX Info: Redefining \. on input line 52.
+LaTeX Info: Redefining \% on input line 52.
+[4 <./images//hermanos-curruman.png>] [5]
+LaTeX Info: Redefining \. on input line 95.
+LaTeX Info: Redefining \% on input line 95.
+ [6]
+<images//6nodos-pageRank-sinColor.png, id=171, 435.6275pt x 185.69376pt>
+File: images//6nodos-pageRank-sinColor.png Graphic file (type png)
+<use images//6nodos-pageRank-sinColor.png>
+Package pdftex.def Info: images//6nodos-pageRank-sinColor.png  used on input li
+ne 130.
+(pdftex.def)             Requested size: 426.79134pt x 181.92763pt.
+
+
+LaTeX Warning: Citation `ma2014exploring' on page 7 undefined on input line 140
+.
+
+[7]
+LaTeX Info: Redefining \. on input line 143.
+LaTeX Info: Redefining \% on input line 143.
+ [8 <./images//6nodos-pageRank-sinColor.png>]
+<images//grafo-10-completo-ConColor.png, id=179, 682.80093pt x 529.98pt>
+File: images//grafo-10-completo-ConColor.png Graphic file (type png)
+<use images//grafo-10-completo-ConColor.png>
+Package pdftex.def Info: images//grafo-10-completo-ConColor.png  used on input 
+line 150.
+(pdftex.def)             Requested size: 426.79134pt x 331.2771pt.
+<images//BandaLCDs1.png, id=180, 711.4078pt x 598.48593pt>
+File: images//BandaLCDs1.png Graphic file (type png)
+<use images//BandaLCDs1.png>
+Package pdftex.def Info: images//BandaLCDs1.png  used on input line 163.
+(pdftex.def)             Requested size: 426.79134pt x 359.0578pt.
+) [9]
+LaTeX Info: Redefining \. on input line 126.
+LaTeX Info: Redefining \% on input line 126.
+ [10 <./images//grafo-10-completo-ConColor.png>] [11 <./images//BandaLCDs1.png>
+]
+LaTeX Info: Redefining \. on input line 126.
+LaTeX Info: Redefining \% on input line 126.
+ [12
+
+]
+Cap\'{\i }tulo 6.
+(conclusiones.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [13]
+
+LaTeX Warning: Citation `carley2006destabilization' on page 14 undefined on inp
+ut line 22.
+
+
+LaTeX Warning: Citation `newman2005measure' on page 14 undefined on input line 
+24.
+
+LaTeX Info: Redefining \. on input line 25.
+LaTeX Info: Redefining \% on input line 25.
+[14]) [15]
+LaTeX Info: Redefining \. on input line 134.
+LaTeX Info: Redefining \% on input line 134.
+ [16
+
+]
 Ap\'{e}ndice A.
-(glosario.tex) (Main.bbl [5]
+(glosario.tex) (Main.bbl [17]
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
- [6
+ [18
 
-]) [7] (Main.aux
+]) [19] (Main.aux
 LaTeX Info: Redefining \. on input line 9.
 LaTeX Info: Redefining \% on input line 9.
 LaTeX Info: Redefining \. on input line 10.
 LaTeX Info: Redefining \% on input line 10.
-) ) 
+)
+
+LaTeX Warning: There were undefined references.
+
+ ) 
 Here is how much of TeX's memory you used:
- 3761 strings out of 478582
- 58320 string characters out of 2843400
- 362939 words of memory out of 3000000
- 21902 multiletter control sequences out of 15000+600000
- 480459 words of font info for 70 fonts, out of 8000000 for 9000
+ 16351 strings out of 478582
+ 326498 string characters out of 2843400
+ 586905 words of memory out of 3000000
+ 34157 multiletter control sequences out of 15000+600000
+ 491236 words of font info for 76 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,8n,62p,519b,391s stack positions out of 10000i,1000n,20000p,200000b,80000s
-<C:/Users/swahler/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/
-cm/cmbx12.pfb><C:/Users/swahler/AppData/Local/Programs/MiKTeX/fonts/type1/publi
-c/amsfonts/cm/cmcsc10.pfb><C:/Users/swahler/AppData/Local/Programs/MiKTeX/fonts
-/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/swahler/AppData/Local/Programs/M
-iKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/swahler/AppData/Local/
-Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/swahler/AppD
-ata/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/sw
-ahler/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:
-/Users/swahler/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr
-8.pfb><C:/Users/swahler/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
-ts/cm/cmsl12.pfb><C:/Users/swahler/AppData/Local/Programs/MiKTeX/fonts/type1/pu
-blic/amsfonts/cm/cmss12.pfb><C:/Users/swahler/AppData/Local/Programs/MiKTeX/fon
-ts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/swahler/AppData/Local/Programs
-/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/swahler/AppData/Loc
-al/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on Main.pdf (16 pages, 171449 bytes).
+ 99i,9n,94p,2246b,814s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ <C:\Users\swahler\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ec
+rm0600.pk> <C:\Users\swahler\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/d
+pi600\ecrm1000.pk> <C:\Users\swahler\AppData\Local\MiKTeX\fonts/pk/ljfour/jknap
+pen/ec/dpi600\ecrm0700.pk> <C:\Users\swahler\AppData\Local\MiKTeX\fonts/pk/ljfo
+ur/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\swahler\AppData\Local\MiKTeX\fonts
+/pk/ljfour/jknappen/ec/dpi600\ecss1200.pk> <C:\Users\swahler\AppData\Local\MiKT
+eX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0800.pk> <C:\Users\swahler\AppData\Lo
+cal\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1200.pk> <C:\Users\swahler\Ap
+pData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\sw
+ahler\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsl1200.pk> <C:\
+Users\swahler\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.
+pk> <C:\Users\swahler\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\e
+cti1200.pk> <C:\Users\swahler\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/
+dpi600\eccc1200.pk> <C:\Users\swahler\AppData\Local\MiKTeX\fonts/pk/ljfour/jkna
+ppen/ec/dpi600\ecrm1200.pk> <C:\Users\swahler\AppData\Local\MiKTeX\fonts/pk/ljf
+our/jknappen/ec/dpi600\ecbx2488.pk> <C:\Users\swahler\AppData\Local\MiKTeX\font
+s/pk/ljfour/jknappen/ec/dpi600\eccc1728.pk> <C:\Users\swahler\AppData\Local\MiK
+TeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1728.pk> <C:\Users\swahler\AppData\L
+ocal\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti2074.pk> <C:\Users\swahler\A
+ppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\eccc2074.pk> <C:\Users\s
+wahler\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2074.pk><C:/
+Users/swahler/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex
+10.pfb><C:/Users/swahler/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfo
+nts/cm/cmmi12.pfb><C:/Users/swahler/AppData/Local/Programs/MiKTeX/fonts/type1/p
+ublic/amsfonts/cm/cmmi8.pfb><C:/Users/swahler/AppData/Local/Programs/MiKTeX/fon
+ts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/swahler/AppData/Local/Programs/
+MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/swahler/AppData/Local/
+Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on Main.pdf (50 pages, 4712394 bytes).
 PDF statistics:
- 119 PDF objects out of 1000 (max. 8388607)
+ 878 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 108 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -3,3 +3,25 @@
 % Capitulo 7: Conclusiones generales
 %----------------------------------------------------------------------
 
+Se ha presentado una propuesta de estudio de las técnicas y metodologías actuales de análisis inteligente de datos y visualización para la asistencia en la investigación criminal. Todo ello a partir de los registros de actividades delictivas, sus autores y las relaciones de datos que pueden derivarse a partir de ellas. Fue de especial interés la identificación de redes ilegales, tales como bandas delictivas o criminales para propender a una persecución penal inteligente.
+
+Del estudio propuesto, como se explicó en los capítulos anteriores, se desarrolló un módulo de software como herramienta gráfica para visualizar la red de grupos de pertenencia de los actores delictuales, incorporando un algoritmo de PageRank para reflejar aquellas personas importantes y Detección de comunidades asignandole colores a cada grupo/cluster de nodos.
+El desarrollo de software se implementó en el mismo Ministerio Público Fiscal, del cual se tomaron los datos para generar los datasets de pruebas. De esta manera se ha logrado no sólo estudiar las técnicas y metodologías expuestas, sino también alcanzar la puesta en producción y uso de la herramienta, por los propios actores de la investigación.
+
+Las primeras impresiones de aquellos especialistas de investigaciones penales han sido muy satisfactorias y permiten evaluar a este trabajo como el inicio de futuros desarrollos visuales para el apoyo a la toma de decisiones en la investigación penal.
+
+\subsection{trabajos futuros}
+
+Como continuación de este trabajo, existen diversas líneas de investigación que quedan abiertas y en las que es posible continuar trabajando. Durante el desarrollo de este trabajo han surgido algunas líneas futuras que se han dejado abiertas y que se esperan atacar en un futuro; algunas de ellas, están más directamente relacionadas con este trabajo y son el resultado de cuestiones que han ido surgiendo durante la realización del mismo.
+
+Actualmente se 	continúa trabajando en el desarrollo de la aplicación de visualización. Se pretende continuar avanzando con el estudio en esta línea de investigación mediante la incorporación de otros algoritmos de grafos y nuevas características que se presentan a continuación. 
+\vspace{-10pt}
+\subsubsection{Optimización de PageRank para Bandas Delictivas}
+Se pretende incorporar a la fórmula original de PageRank, la posibilidad de darle mayor ranking inicial a aquellos nodos que tengan un peso mayor que otros. También sería interesante hacer lo mismo con el peso que poseen los enlaces entre nodos, ya que no es lo mismo una relación de 2 casos penales en cómun entre dos personas, que una de 18 casos en común. De esta manera lograríamos darle más ranking también a aquellos nodos que estén relacionados con otros en más casos penales. 
+\subsubsection{Estudio de Centralidades}
+Se pretende profundizar sobre diversos algoritmos. El de Intermediación (Betweenness centrality), obtiene la medida en que un nodo en particular se encuentra entre otros nodos en una red. Estos elementos intermedios pueden ejercer control estratégico e influencia sobre muchos otros. Un individuo con una alta intermediación puede ser quien dirige la red. Un delincuente de este tipo es muy buscado, ya que su aprensión puede desestabilizar una red criminal o incluso hacer que se destruya~\cite{carley2006destabilization}.
+
+La medida  de Cercanía (Closeness centrality), es la inversa de la suma de los caminos más cortos (geodésicas) que conectan un nodo particular con todos los demás nodos de una red. La idea es que un delincuente es central si puede interactuar rápidamente con todos los demás, no solo con sus primeros vecinos~\cite{newman2005measure}. En el contexto de las bandas delictivas, esta medida destaca aquellos actores con la distancia mínima entre sí, lo que les permite comunicarse más rápidamente que cualquier otra persona en la organización. Por esta razón, la adopción de la centralidad de cercanía es crucial para poner en evidencia dentro de la red a aquellos individuos que están más "cerca" de otros (en términos de datos en común en los Casos en los que se encuentran involucrados).
+
+El algoritmo  de Vector Propio o Autovector (Eigenvector centrality), es otra forma de asignar la centralidad a un actor de la red basado en la idea de que si un nodo tiene muchos vecinos centrales, también debería ser central. Esta medida establece que la importancia de un nodo está determinada por la importancia de sus vecinos. El hecho de que existan sub-bandas que formen parte de una banda mayor puede ser significativo de identificar, tanto para el hallazgo de las primeras como de las ultimas. 
+

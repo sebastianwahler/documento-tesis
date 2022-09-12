@@ -1,0 +1,150 @@
+En el marco de trabajo se ha optado por investigar en base al análisis criminal de redes delictivas en el Ministerio Público Fiscal del Chubut ~\cite{ref_article30}, perteneciente al Poder Judicial de la provincia.
+
+Coirón, es el sistema informático que colabora con la administración del flujo de casos ingresados al Ministerio Público Fiscal del Chubut.
+
+Es una herramienta que permite registrar, comunicar y gestionar las actividades, trámites y actuaciones que se realizan para un caso penal, desde la denuncia hasta su finalización.
+
+Como herramienta de registro construye una base de datos con el historial de cada caso, así como de las personas involucradas y de los responsables de la gestión en cada oficina.
+Como herramienta de comunicación, agrupa la información, entrecruza las relaciones, identifica pertenencias y vinculaciones entre casos, personas, sus antecedentes y sus lazos.
+
+Como herramienta de gestión administra el flujo de casos y el trabajo de los integrantes de las oficinas responsables de los mismos. Permite planificar, organizar, coordinar y controlar el flujo de trabajo afín a cada caso y la sumatoria de ellos.
+Ha sido desarrollado a medida de las necesidades del Ministerio Público Fiscal del Chubut, tomando como base el Código Procesal Penal vigente en el Chubut y adaptado a los lineamientos estratégicos de diseño y gestión de Oficinas Fiscales definidos por la Procuración General.
+
+Su progreso, mantenimiento y mejora continua está a cargo de un Equipo de Desarrollo del Departamento de Informática del Área de Planificación y Control de Gestión de la Procuración General.
+
+El trabajo integrado de los equipos profesionales de informática, los usuarios del sistema y los encargados de fijar los lineamientos de gestión, permiten enfocar la atención y los esfuerzos en dar respuesta a las necesidades de administración del flujo de casos provenientes de conflictos penales y, por ende, a los ciudadanos del Chubut.
+Coirón se relaciona con otros sistemas informáticos como Luan, sistema de gestión de los servicios de asistencia a las víctimas de delitos; Denuncia Digital que administra denuncias en la Policía del Chubut; Skúa que administra las Oficinas Judiciales de las que se vincula la carpeta judicial y los elementos secuestrados; Quimey del RAP ? Registro de Antecedentes Penales y SIDEN de identificación de personas en sede judicial.
+
+\section{Identidad}
+
+Su nombre proviene del mapuche koiron, pasto duro. Estos predominan en la estepa patagónica y se adaptan a las más extremas condiciones climáticas.  Así como esta gramínea resiste el embate de fuertes vientos, nieve, escasez de agua en verano y alimenta a otras especies del reino animal, el sistema Coirón dota al ministerio público fiscal de herramientas técnicas y operativas, que son capaces de tolerar cambios y de adaptarse a nuevas demandas.
+
+\begin{figure}
+	\centering
+	\includegraphics{coiron-logo.png}
+	\caption{Logotipo Coirón.} 
+	\label{fig:coiron-logo}
+\end{figure}
+
+\section{Características generales del Sistema Coirón}
+
+A continuación se enuncian las principales características del sistema.
+
+Administración del flujo de casos ingresados del MPF: Permite registrar, comunicar y gestionar las actividades, trámites y actuaciones que se realizan para un caso penal, desde la denuncia hasta su finalización, y la sumatoria de todos ellos.
+
+Almacenamiento datos y generación de información: Posee una base de datos con el historial de cada caso, así como de las personas involucradas y de los responsables de la gestión en cada oficina.
+Agrupa información, entrecruza las relaciones, identifica pertenencias y vinculaciones entre casos, personas, sus antecedentes y sus lazos.
+
+Interacción con otros sistemas del MPF y del Poder Judicial: Coirón transacciona con una amplia variedad de sistemas informáticos del Poder Judicial. Esto permite la automatización de procesos y comunicaciones agilizando los mismos y disminuyendo los plazos de manera significativa.
+
+\begin{figure}
+	\centering
+	\includegraphics{coiron-vinculos.png}
+	\caption{Vínculos de Coirón con otros Sistemas Informáticos.} 
+	\label{fig:coiron-vinculos}
+\end{figure}
+
+Medición del desempeño de procesos y generación de indicadores de gestión: Coirón posee herramientas de consulta a partir de la cual se construyen reportes e indicadores de desempeño de las Oficinas Únicas Fiscales y sus unidades organizativas utilizados para la mejora de procesos.
+
+\section{Módulos del Sistema Coirón}
+
+Coirón cuenta con una amplia variedad de funciones organizadas en módulos por temáticas específicas.
+
+Calendario y Agendas: Permite al usuario mantener actualizado un calendario personalizado con alertas de vencimientos y eventos asociados a los legajos que administre.
+
+Turnos: Permite buscar turnos asignados en una Oficina Única u organismos auxiliares. También posibilita dar de Alta un Turno nuevo.
+
+Denuncias: Posibilita buscar y visualizar la bandeja de denuncias penales y contravencionales ingresadas a la Oficina Única Fiscal para luego vincularlas a un caso o contravención.
+
+Casos: Es el módulo central de Coirón. Contiene una serie de solapas donde el Usuario por acceder a toda la información del caso: datos generales, relato de la denuncia, delitos/contravenciones, personas involucradas, elementos secuestrados, legajo/sumario, responsables y pases. Para los casos penales el módulo posee dos solapas adicionales: carpeta judicial e incidentes.
+
+Intervenciones: Permite solicitar, desde un caso, la intervención de los organismos colaborativos (ETM, Laboratorios, SAC, etc.) y dejar registro de las intervenciones de estos durante el proceso.
+
+Personas: Posibilita la búsqueda de personas dentro de Coirón y acceder a sus antecedentes, tanto los registrados en el sistema como los obrantes en otras bases de datos con las cuales se vincula coirón: Coiron Global, Skúa y Quimey.
+
+Incidentes: Permite acceder a información del sistema Skúa de casos con sentencia.
+
+Consultas: Posibilita realizar consultas asociadas a casos, contravenciones, personas, elementos, accesos a otros sistemas. También permite al operador ingresar a los instrumentos de investigación.
+
+Control de Gestión: Desde esta ventana, el operador puede acceder a reportes e indicadores que genera Corión sobre una amplia variedad de variables.
+
+\subsection{Formas de Uso}
+
+\subsubsection{Menú Principal}
+
+Como se observa en la Figura \ref{fig:coiro-menues}, Coirón posee dos barras principales a partir de la cual, el Usuario de Coirón puede administrar las distintas funcionalidades del sistema.
+
+\begin{figure}
+	\centering
+	\includegraphics[width=\textwidth]{coiron-menues.png}
+	\caption{Principales barras de Coirón.} 
+	\label{fig:coiron-menues}
+\end{figure}
+
+\subsubsection{Herramientas comunes}
+
+Como puede observarse en la Figura \ref{fig:coiron-herramientas} (que toma de ejemplo el módulo Casos), cada una de las solapas tienen la siguiente estructura de secciones.
+
+Búsqueda: Una sección de búsqueda asociada a la temática de la solapa. En la misma es posible que el Usuario acceda a una amplia variedad de filtros de búsqueda por fechas, períodos, nros. de caso, etapas, etc.
+
+Referencias: Esta breve sección incluye el total de casos que se observarán en la bandeja de datos como así también las referencias de los iconos que aparecerán en los resultados de la búsqueda.   
+
+La bandeja de datos: Incluye la información con el detalle de los datos obtenidos del proceso de búsqueda. En algunas situaciones (ej. Denuncias) Coirón realiza de manera automática la búsqueda bajo determinados parámetros y presenta una bandeja con datos. En el caso de las Denuncias, informa de manera automática las que se encuentran pendientes.
+
+\begin{figure}
+	\centering
+	\includegraphics[width=\textwidth]{coiron-herramientas.png}
+	\caption{Presentación general de una solapa. Ejemplo Casos.} 
+	\label{fig:coiron-herramientas}
+\end{figure}
+
+
+
+\section{Grupos de Pertenencia}
+
+Una vez registrada toda la información relacionada a un hecho, y con ayuda de herramientas y vinculaciones con otros sistemas, se pueden obtener salidas que permiten llevar adelante la investigación de un caso o de un conjunto de hechos con características comunes.
+
+Actualmente nos encontramos trabajando en la incorporación de herramientas de visualización de información que permitirán ver en modo gráfico lo que hoy se muestra en grillas, y listados, potenciando el análisis que realizarán luego los especialistas.
+
+Un medio de enfrentar, "a través del análisis criminal, la persecución penal de sujetos prolíficos es el perfilamiento relacional entre ellos, a través de la realización de vinculación de compañeros de delitos y de redes sociales; a fin de identificar si forman parte de una banda o alguna organización criminal mayor o de un fenómeno delictual más extenso"~\cite{ref_article31}.
+
+Los analistas de redes sociales utilizan dos tipos de herramientas matemáticas para representar información sobre los patrones de relaciones entre actores sociales: matrices y grafos. Estos últimos son de gran ayuda visual cuando se trabaja con una gran cantidad de registros.
+
+Existen muchas variaciones en los grafos, pero todos ellos comparten la característica común del uso de un círculo etiquetado para cada actor en la población que describimos y segmentos de línea entre pares de actores para representar el hecho que existe un vínculo entre ellos.
+
+Se denomina "Grupo de Pertenencia" en el Sistema Coirón a la relación directa que existe entre un individuo dentro del universo de personas cargadas como actores de delitos (roles: denunciado, sospechoso o imputado) y otros individuos del mismo universo, con los cuales existan uno o más casos penales en común.
+
+Crear un módulo de software "Red de Grupos de Pertenencia" donde se muestre gráficamente las relaciones entre las personas involucradas en los casos penales es el objetivo principal de esta investigación. No sólo enfocarse en el grupo de pertenencia de una persona en particular, sino que mediante una visualización y con diversos filtros de búsqueda se logre mostrar gráficamente las relaciones entre un determinado grupo de personas y de esta manera poder inferir la conformación de posibles bandas delictivas.
+
+La idea central es reflejar de manera gráfica, mediante un Grafo, los grupos de pertenencia. Dentro del mismo se le llamará nodo a cada círculo, y representa a una persona (con los roles ya mencionados: imputado, sospechoso o denunciado) involucrada en dos o más casos penales. Existe un gran cúmulo de personas en el sistema con sólo un caso con rol de denunciado, por esa razón se los excluye del universo a analizar, no obstante podrían ser parte del dataset a visualizar si alguno/s de ellos se encuentran relacionados con otros nodos del primer grupo. El tamaño del nodo posee una relación directa con la cantidad de casos penales en los que se encuentre involucrada la persona. Cuanto mayor sea el tamaño del nodo en más cantidad de casos penales estará involucrado.
+
+Los segmentos de líneas entre pares de nodos, vinculan a las personas entre sí y representan el o los casos que tienen en común. El grosor de la vinculación será directamente proporcional a la cantidad de casos en común entre un par de personas. 
+
+Hay nodos que se encontrarán aislados en el grafo, esto no significa que no estén involucrados en casos, sino que quizás no existan relaciones para el filtro de búsqueda que se utilice en esa vista en particular.
+
+Supongamos que una persona "A" se encuentra asociada a 8 casos penales, una persona "B" a 4 y una persona "C" a 2 casos. Agreguemos que las personas "A" y "B" se encuentran relacionadas entre sí, por estar en 3 casos en común (casos 1, 2 y 3). Por otro lado las personas "A" y "C" también se encuentran relacionadas, por tener un caso en común (caso 4).  Una representación gráfica de dicha situación se muestra a continuación en la Figura \ref{fig:grafode2}, y puede observarse el doble de tamaño entre el nodo "A" y el nodo "B", representando justamente la diferencia de casos entre ambos nodos (8 y 4 casos). También se ve a simple vista el grosor del enlace entre "A" y "B" tres veces más grande que el enlace entre "A" y "C" (3 casos en común entre el primer par de nodos, y sólo un caso para el último par de nodos mencionado). 
+
+\begin{figure}
+	\centering
+	\tikzstyle{nodoA}= [circle,fill=blue!25,minimum size=80pt]
+	\tikzstyle{nodoB}=[circle,fill=blue!25,minimum size=40pt]
+	\tikzstyle{nodoC}=[circle,fill=blue!25,minimum size=20pt]
+	\begin{center}
+		\begin{tikzpicture}[scale=1.0]
+			\node[nodoA][draw] (1) at (0,6) {A};
+			\node[nodoB][draw] (2) at (4,5) {B};
+			\node[nodoC][draw] (3) at (4,7) {C};
+			%
+			\draw [line width=3.0mm, red ] (1) -- (2);
+			\draw [line width=1.0mm, red ] (1) -- (3);
+		\end{tikzpicture}
+	\end{center}
+	\caption{Ejemplo de relación entre tres personas.} 
+	\label{fig:grafode2}
+\end{figure}
+
+\section{Red de Grupos de Pertenencia}
+
+
+\section{Descripción general de los datos}
+\input{descripcion-datos}

@@ -1,0 +1,166 @@
+\subsection{Identificación de posibles Bandas delictivas}
+
+En esta sección, describimos nuestro problema, algunos de los enfoques prácticos existentes utilizados por las fuerzas de la ley y nuestro enfoque basado en la teoría de grafos con características generadas principalmente por la distribución de los datos anteriormente descrita.
+
+\subsubsection{Métodos existentes}
+
+Aquí describimos las técnicas comunes que las fuerzas de seguridad suelen utilizar para predecir posibles bandas delictivas. 
+
+Las personas nos movemos habitualmente entre lugares conocidos o nodos (hogar, trabajo, supermercado, restaurante) y por las mismas calles o rutas. La teoría sugiere que cuando ocurre un delito es porque se cruzan delincuentes y víctimas dentro de algunas de estas zonas de actividad (nodo, ruta). A partir del análisis del lugar del delito se pueden determinar distintos tipos de víctimas y delincuentes que lo frecuentan, entender por qué concurren a ese lugar y qué hace que se encuentre la dupla delincuente-víctima. Es una manera estructurada de conocer e investigar patrones de comportamiento.
+
+Por otro lado se puede deducir que los delincuentes se comportan igual que el resto de las personas, realizan actividades diariamente, se mueven por rutas conocidas para ir de la casa al trabajo, o a algún otro lugar que frecuenten. Es decir, mantienen una cierta rutina en sus vidas. Un delincuente tenderá a cometer un delito en algún lugar que se encuentre dentro o cerca del recorrido que realiza diariamente para trasladarse desde la casa al trabajo, del trabajo a algún lugar de recreación u otro lugar habitual.
+
+De ambos enfoques se busca encontrar la mayor cantidad de patrones de ocurrencia entre diversos hechos de similar criminalidad y patrones horarios, como así también las zonas geográficas en donde se producen.  
+
+La naturaleza de los vínculos de los integrantes de una banda delictiva es una variable que aporta información sobre las características y similitudes de los miembros del grupo, atendiendo a criterios concretos: vínculo familiar, cultural, de proximidad (provienen del mismo barrio), han compartido prisión, de especialización (habilidades delictivas), la experiencia u otras capacidades, y otros tipos de vínculo.
+
+
+\subsubsection{Enfoque propio}
+
+Ante los enfoques teóricos y prácticos estudiados anteriormente, nuestro desarrollo de software propio, que permite mostrar de manera gráfica las relaciones entre actores delictuales en el Sistema Penal de la Provincia del Chubut, se potencia como una herramienta vital de apoyo en la toma de decisiones de la investigación penal de bandas delictivas.
+
+Poder visualizar relaciones entre las personas involucradas en casos penales ayuda a los especialistas a detectar triangulaciones, transitividades y por supuesto centralidades en la Red. Todo ello, sumado a los indicios de investigación y la propia expertís en la temática completan una herramienta de análisis para determinar ciertas bandas o grupos altamente relacionados.
+
+En el año 2019 existieron investigaciones vinculadas a reiterados robos de televisores LCD en domicilios, como así también una serie de hechos consecutivos vinculados al robo de cajas fuertes en empresas del parque industrial de la ciudad de Trelew.
+
+La UAC (Unidad de Análisis Criminal), organismo auxiliar de la Procuración General perteneciente al Ministerio Público Fiscal del Chubut, sirvió como equipo de apoyo en la investigación de ambos modus operandi, haciendo uso de toda la información de los legajos fiscales, consultas generales y específicas contenidas en el Sistema Coirón. Fue de vital uso la información referida a los grupos de pertenencia de cada persona, pero devino en un arduo trabajo entrecruzando información de personas, para dar con las supuestas bandas delictivas detrás de estos hechos.
+
+Dichas investigaciones sirvieron como puntapié inicial para realizar esta investigación y poder facilitar la información ya contenida en el sistema de gestión penal, de otra manera, de una forma más directa y visual a la hora de investigar, que sirva directamente como apoyo a la toma de decisiones en las investigaciones de bandas delictivas. 
+
+A continuación se puede observar una visualización extraída de este trabajo, utilizando como filtros de búsqueda dos personas (nodos 116587 y 145262) con muchos casos y relaciones en el sistema, a fin de encontrar si existe algún tipo de relación directa entre ambos, y a su vez si existen nodos que produzcan transitividades o sean a su vez centrales de otros grupos.
+Desde la visualización se agregó gracias a la vinculación con el sistema de la oficina de identificación de personas, fotografías para colocar en los nodos y hacer de este trabajo una herramienta aún más potente. Aquellas personas que no hayan sido identificadas en sede judicial no tendrán fotografía. Por cuestiones judiciales se han desenfocado las fotografías y se han colocado identificadores en vez de los nombres reales de las personas intervinientes.
+
+\begin{figure}
+	\includegraphics[width=\textwidth]{hermanos-curruman.png}
+	\caption{Relación entre dos personas. Se agregan fotografías.} 
+	\label{fig:hermanos-curruman}
+\end{figure}
+
+Como puede verse, existen en la parte central de la imagen muchas personas que se encuentran relacionadas delictualmente con ambos nodos en cuestión. De esta manera se pueden tomar acciones con respecto a estas personas en pos de encontrar patrones de ocurrencia que los vinculen ante la posibilidad de identificarlos como una supuesta banda delictiva. 
+
+
+\subsubsection{PageRank}
+
+Como parte simplificada de la estructura de una comunidad de nodos en una red social, cada uno representa a un individuo y la red tiene una segmentación multitudinaria ~\cite{ma2014exploring}. Algunas personas son centrales en la comunidad, algunas están al margen, establecen menos relaciones con otros y, por lo tanto, tienen una influencia menor. En esta sección, presentamos un nuevo enfoque de descubrimiento comunitario basado en el algoritmo PageRank para encontrar a estos delincuentes "importantes" ó con "mayor influencia" en nuestro grafo, a fin de encontrar supuestas bandas delictivas.
+
+\subsubsection{Definición formal de Grafo}
+Un grafo es un par $G = (N, A, g)$ donde $N$ es un conjunto finito no vacío de elementos denominados \textit{nodos} (vértices), $A$ es un conjunto de arcos y $g$ es una función que asocia a cada arco $a$ perteneciente a $A$ con un par no ordenado $(x, y)$, siendo $x$ e $y$ nodos pertenecientes a $N$. Se dice que $a$ es un arco con vértices extremos $x$ e $y$ ~\cite{dubinsky1984mathematical}.
+
+\subsubsection{PageRank}
+PageRank (PR) es un método que fue implementado a través de un algoritmo
+originalmente utilizado por Google que asigna a cada página web de un conjunto dado, un puntaje que refleja su importancia dentro del conjunto. A este puntaje se lo denomina \textit{valor de PageRank}. Ante una consulta, el buscador utiliza estos puntajes para determinar el nivel de relevancia de las páginas, y retorna en primer lugar aquellas con un puntaje más alto. Para calcular los puntajes, PageRank utiliza la estructura de enlaces de la web ~\cite{brin1998anatomy}. Una página web tiene un valor de PageRank alto si es apuntada por muchas otras páginas, o bien si es apuntada por páginas con puntajes altos ~\cite{page1999pagerank}. PageRank tiene una base intuitiva en el concepto de \textit{random walks} sobre grafos ~\cite{gobel1974random}: suponga que un navegante aleatorio empieza a navegar la web desde una página cualquiera. El navegante puede hacer clic en forma aleatoria sobre alguno de los enlaces presentes en la página en la que se encuentra actualmente con una probabilidad $d$ a la que se denomina \textit{damping factor}, o bien con probabilidad $1-d$ accede aleatoriamente a cualquier otra página web. Este proceso se repite indefinidamente. Luego, el valor de PageRank de una página $P$ puede ser interpretado como la probabilidad de que el navegante aleatorio se encuentre en $P$ al finalizar el proceso. PageRank es definido formalmente de la siguiente manera ~\cite{franceschet2011pagerank}. Sean $q_i$ el número de enlaces salientes que posee la página $i$ , $n$ el número total de páginas web, $d$ el \textit{damping factor} que por lo general adquiere el valor 0.85, $\pi$ un vector columna denominado \textit{vector PageRank}, y $H = (h_{ij})$ una matriz cuadrada de tamaño $n$ tal que $h_{ij} = 1/q_i$ si existe un enlace desde la página $i$ a la página $j$ , y $h_{ij} = 0$ en caso contrario. El valor $h_{ij}$ corresponde a la probabilidad de acceder a la página $j$ desde la página $i$ en un paso, a partir de hacer clic en alguno de los enlaces que aparecen en esta última. El valor de PageRank correspondiente a la página $j$ es $\pi_j$, y se define recursivamente como se muestra en la ecuación \ref{eqn:ecuacionPageRank} ~\cite{lin2010data}.
+
+\begin{equation} 
+	\label{eqn:ecuacionPageRank} 
+	\pi_j = \frac{1-d}{n} + d \sum_{i=1}^{n} \pi_i h_{ij} 
+\end{equation}
+
+\subsubsection{Aplicación de PageRank para bandas delictivas}
+Nuestro dataset descrito anteriormente se obtiene a partir de consultas SQL a la Base de Datos de Coirón. Para hacer uso del algoritmo de PageRank se decidió incorporarlo dentro de esas consultas SQL de modo de obtener un resultado que pueda ser utilizado para la visualización. Dentro de la consulta original se generaba una tabla para los nodos y otra tabla para las relaciones, de esta manera el software realizado para la visualización obtiene dichos datasets y renderiza el grafo.
+Para incorporar el cálculo de PageRank, inicialmente se adecuaron ambas tablas para la utilización de la fórmula, y se necesitó de ciertas tablas temporales para el cálculo. Por un lado se computaron el grado de salida de cada nodo, es decir el número de enlaces que lo conectan con otros nodos.
+
+\begin{verbatim}
+	INSERT INTO #OutDegree
+	SELECT #Node.id, COUNT(#Edge.src)
+	FROM #Node 
+	LEFT OUTER JOIN #Edge ON #Node.id = #Edge.src
+	GROUP BY #Node.id		
+\end{verbatim}
+
+Luego se declara el \textit{damping factor}, en nuestro caso $0.85$, el conteo total de nodos, se calcula el pageRank inicial de cada nodo, para después comenzar la iteración buscando cumplir con la sumatoria de la fórmula.
+El damping factor corresponde a un valor probabilístico que, aplicado al escenario de paginas web, pretende capturar la posibilidad de que un usuario continúe haciendo click en los links de una página en una sesión de navegación continua.
+Aquí este factor tienen un significado diferente, reintrepretado como el factor en el que se diluye la importancia de un individuo entre sus pares a través de una cadena de arcos. Actualmente estamos estudiando un valor apropiado en función de los datos existentes, puesto que el damping factor es esencialmente un valor empírico. En este trabajo optamos por usar el valor propio de la propuesta original del PageRank.
+
+\begin{verbatim}
+	DECLARE @dampingFactor float = 0.85
+	DECLARE @Node_Num int
+	SELECT @Node_Num = COUNT(*) FROM #Node
+	INSERT INTO #PageRank
+	SELECT #Node.id, rank = ((1 - @dampingFactor) / @Node_Num)
+	FROM #Node 
+	INNER JOIN #OutDegree ON #Node.id = #OutDegree.id
+	DECLARE @Iteration int = 0
+	WHILE @Iteration < 50
+	BEGIN
+	--Iteration Style
+	SET @Iteration = @Iteration + 1
+	INSERT INTO #TmpRank
+	SELECT #Edge.dst, rank = ((1 - @dampingFactor) / @Node_Num) 
+	+ (@dampingFactor * SUM(#PageRank.rank / #OutDegree.degree))
+	FROM #PageRank 
+	INNER JOIN #Edge ON #PageRank.id = #Edge.src
+	INNER JOIN #OutDegree ON #PageRank.id = #OutDegree.id
+	GROUP BY #Edge.dst
+	END
+\end{verbatim}
+
+Una vez finalizado el desarrollo de la fórmula, se procedió a realizar pruebas que corroboren el buen funcionamiento del código. Se realizaron ejemplos para pocos nodos con pocas relaciones, de manera tal que sea sencilla la verificación. Se muestran a continuación el Cuadro \ref{tab:TablaPageRank6Nodos} con los resultados de PageRank para 6 nodos, y la Figura \ref{fig:6nodos-pageRank-sinColor} que refleja la visualización del mismo algoritmo. En cada nodo se muestra su posición de PageRank, y entre paréntesis el Id de cada nodo. Como se puede observar el nodo central por el PageRank calculado es el referido al ID 145053, cuyas relaciones con 3 nodos pesan sobre las relaciones que poseen el resto de los nodos visualizados en el grafo.
+Es interesante ver que éste individuo no es el que posee necesariamente la mayor cantidad de casos penales, pero es el más importante entre sus pares de su propia red social de
+contactos con antecedentes relacionados.
+
+La visualización del grafo que combina información penal con la relevancia basada en la topología del grupo de pertenencia provee mayor asistencia a una identificación primaria de individuos de importancia. Esto es compatible con el patrón de comportamiento que indica que, en varias organizaciones delictivas, los líderes no siempre evidencian la mayor visibilización judicial, contrario a lo que
+ocurre en los estratos inferiores que están mas expuestos al delito cotidiano. Por ejemplo, en las estructuras de mafia siciliana el soldato es quien realiza muchos de los actos delictivos simples de la Cosa Nostra, mientras que sus lideres los capo-decina y capo-mandamento se reservan mayor discreción.
+
+\begin{table}
+	\centering
+	\label{tab:TablaPageRank6Nodos}
+	\begin{tabular}{|l|r|}
+		\hline
+		\textbf{IdNodo} &  \textbf{PageRank} \\
+		\hline
+		145053 &  0,286845042094944 \\
+		\hline
+		145262 &  0,199512347112651 \\
+		\hline
+		116587 &  0,1910604814502 \\
+		\hline
+		132310 &  0,109790233522352 \\
+		\hline
+		123109 &  0,106270247927848 \\
+		\hline
+		129137 &  0,106270247927848 \\
+		\hline
+	\end{tabular}
+	\vspace{10pt}
+	\caption{Valores de PageRank por nodo luego de la ejecución del algoritmo}
+\end{table}
+
+\begin{figure}
+	\centering
+	\includegraphics[width=\textwidth]{6nodos-pageRank-sinColor.png}
+	\caption{Resultado de ejecución de PageRank para 6 nodos.} 
+	\label{fig:6nodos-pageRank-sinColor}
+\end{figure}
+
+
+
+
+%DETECCIONES COMUNITARIAS
+\subsubsection{Detección de comunidades}
+Una comunidad puede ser definida como un conjunto de nodos que están más densamente conectados entre ellos que con el resto de la red. La importancia de este planteamiento radica en que se espera que los nodos que están contenidos dentro de una misma comunidad compartan atributos, características comunes o relaciones funcionales  ~\cite{ma2014exploring}.
+En este trabajo se aprovecha el algoritmo SQL descrito con anterioridad en el cual se dividen nodos y relaciones para ser luego visualizadas por la herramienta Vis.JS.
+En este sentido, nuestro enfoque se basa en la búsqueda de posibles personas que participen en bandas delictivas. Del origen de datos surge que para cada nodo pueden conocerse todas sus relaciones, de modo que podemos asignar a cada uno de esos nodos referentes un identificador de grupo ó cluster. Mediante esa identificación es posible verificar para cada relación de par de nodos, si pertenecen a un grupo en particular (uno de ellos será "referente" y podremos identificarlo), y de esta manera asignar a cada relación también un grupo determinado. Con ambas tablas (nodos y relaciones) actualizadas, es posible desde la herramienta de visualización, asignar colores a cada cluster, y así generar grafo aún más práctico a la vista.
+
+Si bien para la visualización se utiliza lenguaje JavaScript de la mano de la librería anteriormente mencionada Vis.JS, y los dataset se obtienen desde la Base de Datos del Sistema Coirón a través de consultas SQL, el software de estudio que toma los datos del dataset y los procesa para luego llamar a la librería de visualización, se encuentra desarrollado en lenguaje C Sharp de .Net Framework. 
+
+A continuación se exhibe en la Figura \ref{fig:grafo-10-completo-ConColor} la misma visualización que se ha presentado con anterioridad en la Figura \ref{fig:grafoTop10}. Puede observarse en cada grupo o cluster de nodos que comparten el mismo color para los enlaces internos. 
+
+\begin{figure}
+	\centering
+	\includegraphics[width=\textwidth]{grafo-10-completo-ConColor.png}
+	\caption{10 personas con más casos en Coirón, con sus relaciones. Se agrega detección de comunidades por color.} 
+	\label{fig:grafo-10-completo-ConColor}
+\end{figure}
+
+
+%VALIDACIÓN DEL MODELO CON CASOS REALES
+\subsubsection{Casos de estudio reales}
+
+Se ejecutó el algoritmo también para casos de estudio real resueltos en el MPF, donde las bandas y sus líderes han sido identificados, y de esta manera validar la relevancia de la implementación. Como ejemplo a continuación se muestra la Figura \ref{fig:BandaLCDs1}, sobre el caso real de robo de LCDs mencionado en el capítulo anterior. Pudo validarse que todos los integrantes de la banda se encuentran en el centro del subgrafo, altamente relacionados con los nodos de colores, que reflejan a los de m´as valor de PageRank.
+
+\begin{figure}
+	\centering
+	\includegraphics[width=\textwidth]{BandaLCDs1.png}
+	\caption{Resultado de ejecución de PageRank para el caso real de robo de LCDs.} 
+	\label{fig:BandaLCDs1}
+\end{figure}

@@ -8,6 +8,8 @@
 % la opción draft es bueno activarla mientras uno está escribiendo y después hay que sacarla para la versión final 
 
 % packages LaTeX adicionales
+\usepackage[T1]{fontenc}
+\usepackage[latin1]{inputenc}
 \usepackage[spanish]{babel}
 \usepackage{amsmath}
 \usepackage{amstext}
@@ -15,6 +17,14 @@
 \usepackage{longtable}
 \usepackage{makeidx}
 \usepackage[dvips]{graphicx}
+
+\graphicspath {{images/}}
+\usepackage{todonotes}
+\usepackage{Tikz}
+\usepackage{pspicture}
+\usepackage{subfigure}
+\usepackage{soul}
+
 
 %\input{setbmp}
 
@@ -74,16 +84,40 @@
 
 
 \chapter{Introducci\'on} \setcounter{page}{1}\pagenumbering{arabic}
-    \label{capIntro}
+    \label{intruduccion}
 
 \input{introduccion}
 
 % =================================================================== %
 
-\chapter{Otro Capitulo} \setcounter{page}{1}\pagenumbering{arabic}
-    \label{otroCap}
+\chapter{Análisis de Redes Sociales (SNA)} \setcounter{page}{1}\pagenumbering{arabic}
+    \label{sna}
 
-\input{otroCap}
+\input{sna}
+
+
+% =================================================================== %
+
+\chapter{MPF Chubut - Sistema Coirón} \setcounter{page}{1}\pagenumbering{arabic}
+\label{coiron}
+
+\input{coiron}
+
+
+% =================================================================== %
+
+\chapter{Visualización} \setcounter{page}{1}\pagenumbering{arabic}
+\label{visualizacion}
+
+\input{visualizacion}
+
+
+% =================================================================== %
+
+\chapter{Propuesta de desarrollo} \setcounter{page}{1}\pagenumbering{arabic}
+\label{desarrollo}
+
+\input{desarrollo}
 
 
 % =================================================================== %
