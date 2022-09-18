@@ -1,4 +1,15 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
+
+\bibitem{barnes1954class}
+{\sc Barnes, J.~A.}
+\newblock Class and committees in a norwegian island parish.
+\newblock {\em Human relations 7}, 1 (1954), 39--58.
+
+\bibitem{berardo2010self}
+{\sc Berardo, R., and Scholz, J.~T.}
+\newblock Self-organizing policy networks: Risk, partner selection, and
+  cooperation in estuaries.
+\newblock {\em American Journal of Political Science 54}, 3 (2010), 632--649.
 
 \bibitem{Bondarenko:Dung:Kowalski:Toni:1997}
 {\sc Bondarenko, A., Dung, P.~M., Kowalski, R., and Toni, F.}
@@ -18,6 +29,17 @@
   (CACIC)\/} (El Calafate, Santa Cruz, Oct. 2001), Universidad Nacional de la
   Patagonia Austral, pp.~1051--1062.
 
+\bibitem{cardenas2015latin}
+{\sc C{\'a}rdenas, J.}
+\newblock Are latin america's corporate elites transnationally interconnected?
+  a network analysis of interlocking directorates.
+\newblock {\em Global networks 15}, 4 (2015), 424--445.
+
+\bibitem{castells2011network}
+{\sc Castells, M.}
+\newblock Network theory| a network theory of power.
+\newblock {\em International journal of communication 5\/} (2011), 15.
+
 \bibitem{Chesnevar:2001}
 {\sc Ches{\~n}evar, C.~I.}
 \newblock {\em {F}ormalizaci\'on de los {P}rocesos de {A}rgumentaci\'on
@@ -25,10 +47,32 @@
 \newblock PhD thesis, Departamento de Ciencias de la Computaci{\'o}n,
   Universidad Nacional del Sur, Bah{\'{\i}}a Blanca, Argentina, Jan. 2001.
 
+\bibitem{christakis2007spread}
+{\sc Christakis, N.~A., and Fowler, J.~H.}
+\newblock The spread of obesity in a large social network over 32 years.
+\newblock {\em New England journal of medicine 357}, 4 (2007), 370--379.
+
+\bibitem{colina2011homofilia}
+{\sc Colina, C.~L., and Verd, J.~M.}
+\newblock De la homofilia a la cohesi{\'o}n social y viceversa.
+\newblock {\em Redes. Revista hispana para el an{\'a}lisis de redes sociales
+  20\/} (2011), 29--50.
+
 \bibitem{Davis:1989}
 {\sc Davis, R.~E.}
 \newblock {\em Truth, Deduction, and Computation}.
 \newblock Computer Science Press, 1989.
+
+\bibitem{galaskiewicz1993social}
+{\sc Galaskiewicz, J., and Wasserman, S.}
+\newblock Social network analysis: Concepts, methodology, and directions for
+  the 1990s.
+\newblock {\em Sociological Methods \& Research 22}, 1 (1993), 3--22.
+
+\bibitem{garay2012institutional}
+{\sc Garay-Salamanca, L.~J., and Salcedo-Albar{\'a}n, E.}
+\newblock Institutional impact of criminal networks in colombia and mexico.
+\newblock {\em Crime, Law and Social Change 57}, 2 (2012), 177--194.
 
 \bibitem{Garcia:1997}
 {\sc Garc\'{\i}a, A.~J.}
@@ -42,5 +86,46 @@
 \newblock Modeling uncertainty with propositional assumption-based systems.
 \newblock In {\em Applications of uncertainty formalisms}, A.~Hunter and
   S.~Parsons, Eds. Springer-Verlag, 1998, pp.~446--470.
+
+\bibitem{heemskerk2016corporate}
+{\sc Heemskerk, E.~M., and Takes, F.~W.}
+\newblock The corporate elite community structure of global capitalism.
+\newblock {\em New Political Economy 21}, 1 (2016), 90--118.
+
+\bibitem{lozares1996teoria}
+{\sc Lozares~Colina, C.}
+\newblock La teor{\'\i}a de redes sociales.
+\newblock {\em Papers: revista de sociolog{\'\i}a}, 48 (1996), 103--126.
+
+\bibitem{medina2011definicion}
+{\sc Medina, J. I. G.-V.}
+\newblock Una definici{\'o}n estructural de capital social.
+\newblock {\em Redes. Revista hispana para el an{\'a}lisis de redes sociales
+  20\/} (2011), 132--160.
+
+\bibitem{medina2020procedimiento}
+{\sc Medina-Nogueira, Y.~E., Assafiri-Ojeda, Y.~E., Nogueira-Rivera, D.,
+  Medina-Le{\'o}n, A., and Medina-Nogueira, D.}
+\newblock Procedimiento de an{\'a}lisis redes sociales: herramienta de
+  auditor{\'\i}a de gesti{\'o}n del conocimiento.
+\newblock {\em Ingenier{\'\i}a Industrial 41}, 1 (2020).
+
+\bibitem{nadel2013theory}
+{\sc Nadel, S.~F.}
+\newblock {\em The theory of social structure}.
+\newblock Routledge, 2013.
+
+\bibitem{santana2011redes}
+{\sc Santana, M., Cabello, J., Cubas, R., and Medina, V.}
+\newblock Redes sociales como soporte a la gesti{\'o}n del conocimiento.
+
+\bibitem{scott2011social}
+{\sc Scott, J.}
+\newblock Social network analysis: developments, advances, and prospects.
+\newblock {\em Social network analysis and mining 1}, 1 (2011), 21--26.
+
+\bibitem{wasserman1994social}
+{\sc Wasserman, S., and Faust, K.}
+\newblock Social network analysis cambridge university press, 1994.
 
 \end{thebibliography}

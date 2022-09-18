@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.3.21)  12 SEP 2022 19:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.3.21)  18 SEP 2022 14:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -779,107 +779,133 @@ LaTeX Info: Redefining \% on input line 93.
 ]
 Cap\'{\i }tulo 2.
 (sna.tex
+Underfull \vbox (badness 3019) has occurred while \output is active []
 
-LaTeX Warning: Citation `ref_article2' on page 1 undefined on input line 3.
+ [1]
+LaTeX Info: Redefining \. on input line 18.
+LaTeX Info: Redefining \% on input line 18.
 
-
-LaTeX Warning: Citation `ref_article3' on page 1 undefined on input line 3.
-
-
-LaTeX Warning: Citation `ref_article4' on page 1 undefined on input line 3.
-
-
-LaTeX Warning: Citation `ref_article5' on page 1 undefined on input line 5.
-
-
-LaTeX Warning: Citation `ref_article6' on page 1 undefined on input line 5.
-
-[1]
-
-LaTeX Warning: Citation `ref_article7' on page 2 undefined on input line 7.
-
-
-LaTeX Warning: Citation `ref_article8' on page 2 undefined on input line 7.
-
-
-LaTeX Warning: Citation `ref_article9' on page 2 undefined on input line 7.
-
-
-LaTeX Warning: Citation `ref_article10' on page 2 undefined on input line 7.
-
-
-LaTeX Warning: Citation `ref_article11' on page 2 undefined on input line 7.
-
-
-LaTeX Warning: Citation `ref_article12' on page 2 undefined on input line 7.
-
-
-LaTeX Warning: Citation `ref_article13' on page 2 undefined on input line 7.
-
-
-LaTeX Warning: Citation `ref_article14' on page 2 undefined on input line 7.
-
-
-LaTeX Warning: Citation `ref_article15' on page 2 undefined on input line 7.
-
-
-LaTeX Warning: Citation `ref_article16' on page 2 undefined on input line 7.
-
-
-LaTeX Warning: Citation `ref_article17' on page 2 undefined on input line 7.
-
-
-LaTeX Warning: Citation `ref_article18' on page 2 undefined on input line 7.
-
-
-LaTeX Warning: Citation `ref_article19' on page 2 undefined on input line 7.
-
-
-LaTeX Warning: Citation `ref_article20' on page 2 undefined on input line 7.
-
-
-LaTeX Warning: Citation `ref_article21' on page 2 undefined on input line 7.
-
-
-LaTeX Warning: Citation `ref_article22' on page 2 undefined on input line 7.
-
-
-LaTeX Warning: Citation `ref_article23' on page 2 undefined on input line 7.
-
-
-LaTeX Warning: Citation `ref_article24' on page 2 undefined on input line 7.
-
-
-LaTeX Warning: Citation `ref_article25' on page 2 undefined on input line 7.
-
-LaTeX Info: Redefining \. on input line 12.
-LaTeX Info: Redefining \% on input line 12.
 [2]
+LaTeX Info: Redefining \. on input line 40.
+LaTeX Info: Redefining \% on input line 40.
+ [3]
+LaTeX Info: Redefining \. on input line 49.
+LaTeX Info: Redefining \% on input line 49.
+ [4]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Warning: Citation `ref_article26' on page 3 undefined on input line 13.
+LaTeX Info: Redefining \. on input line 66.
+LaTeX Info: Redefining \% on input line 66.
+
+Overfull \hbox (7.91232pt too wide) has occurred while \output is active
+\T1/cmr/m/sl/12 2.3.  CONCEPTOS FUNDAMENTALES EN EL ANÁLISIS DE REDES SOCIALES 
+\T1/cmr/m/n/12 5
+ []
+
+[5]
+
+LaTeX Warning: Citation `ref_article2' on page 6 undefined on input line 67.
 
 
-LaTeX Warning: Citation `ref_article27' on page 3 undefined on input line 13.
+LaTeX Warning: Citation `ref_article3' on page 6 undefined on input line 67.
 
 
-LaTeX Warning: Citation `ref_article28' on page 3 undefined on input line 13.
+LaTeX Warning: Citation `ref_article4' on page 6 undefined on input line 67.
 
 
-LaTeX Warning: Citation `ref_article29' on page 3 undefined on input line 13.
+LaTeX Warning: Citation `ref_article5' on page 6 undefined on input line 69.
 
-) [3]
+
+LaTeX Warning: Citation `ref_article6' on page 6 undefined on input line 69.
+
+
+LaTeX Warning: Citation `ref_article7' on page 6 undefined on input line 71.
+
+
+LaTeX Warning: Citation `ref_article8' on page 6 undefined on input line 71.
+
+
+LaTeX Warning: Citation `ref_article9' on page 6 undefined on input line 71.
+
+
+LaTeX Warning: Citation `ref_article10' on page 6 undefined on input line 71.
+
+
+LaTeX Warning: Citation `ref_article11' on page 6 undefined on input line 71.
+
+
+LaTeX Warning: Citation `ref_article12' on page 6 undefined on input line 71.
+
+
+LaTeX Warning: Citation `ref_article13' on page 6 undefined on input line 71.
+
+
+LaTeX Warning: Citation `ref_article14' on page 6 undefined on input line 71.
+
+
+LaTeX Warning: Citation `ref_article15' on page 6 undefined on input line 71.
+
+
+LaTeX Warning: Citation `ref_article16' on page 6 undefined on input line 71.
+
+
+LaTeX Warning: Citation `ref_article17' on page 6 undefined on input line 71.
+
+
+LaTeX Warning: Citation `ref_article18' on page 6 undefined on input line 71.
+
+
+LaTeX Warning: Citation `ref_article19' on page 6 undefined on input line 71.
+
+
+LaTeX Warning: Citation `ref_article20' on page 6 undefined on input line 71.
+
+
+LaTeX Warning: Citation `ref_article21' on page 6 undefined on input line 71.
+
+
+LaTeX Warning: Citation `ref_article22' on page 6 undefined on input line 71.
+
+
+LaTeX Warning: Citation `ref_article23' on page 6 undefined on input line 71.
+
+
+LaTeX Warning: Citation `ref_article24' on page 6 undefined on input line 71.
+
+
+LaTeX Warning: Citation `ref_article25' on page 6 undefined on input line 71.
+
+LaTeX Info: Redefining \. on input line 72.
+LaTeX Info: Redefining \% on input line 72.
+[6]
+LaTeX Info: Redefining \. on input line 77.
+LaTeX Info: Redefining \% on input line 77.
+ [7]
+
+LaTeX Warning: Citation `ref_article26' on page 8 undefined on input line 77.
+
+
+LaTeX Warning: Citation `ref_article27' on page 8 undefined on input line 77.
+
+
+LaTeX Warning: Citation `ref_article28' on page 8 undefined on input line 77.
+
+
+LaTeX Warning: Citation `ref_article29' on page 8 undefined on input line 77.
+
+)
 LaTeX Info: Redefining \. on input line 101.
 LaTeX Info: Redefining \% on input line 101.
- [4
-
-]
+ [8]
 Cap\'{\i }tulo 3.
 (coiron.tex
 
 LaTeX Warning: Citation `ref_article30' on page 1 undefined on input line 1.
 
-[1]
-<images//coiron-logo.png, id=77, 150.5625pt x 65.24374pt>
+[1
+
+]
+<images//coiron-logo.png, id=90, 150.5625pt x 65.24374pt>
 File: images//coiron-logo.png Graphic file (type png)
 <use images//coiron-logo.png>
 Package pdftex.def Info: images//coiron-logo.png  used on input line 24.
@@ -887,7 +913,7 @@ Package pdftex.def Info: images//coiron-logo.png  used on input line 24.
 LaTeX Info: Redefining \. on input line 35.
 LaTeX Info: Redefining \% on input line 35.
  [2 <./images//coiron-logo.png>]
-<images//coiron-vinculos.png, id=83, 232.578pt x 135.0135pt>
+<images//coiron-vinculos.png, id=96, 232.578pt x 135.0135pt>
 File: images//coiron-vinculos.png Graphic file (type png)
 <use images//coiron-vinculos.png>
 Package pdftex.def Info: images//coiron-vinculos.png  used on input line 42.
@@ -899,7 +925,7 @@ LaTeX Info: Redefining \% on input line 58.
 LaTeX Warning: Reference `fig:coiro-menues' on page 4 undefined on input line 7
 5.
 
-<images//coiron-menues.png, id=88, 615.0478pt x 311.66437pt>
+<images//coiron-menues.png, id=101, 615.0478pt x 311.66437pt>
 File: images//coiron-menues.png Graphic file (type png)
 <use images//coiron-menues.png>
 Package pdftex.def Info: images//coiron-menues.png  used on input line 79.
@@ -907,44 +933,63 @@ Package pdftex.def Info: images//coiron-menues.png  used on input line 79.
 LaTeX Info: Redefining \. on input line 89.
 LaTeX Info: Redefining \% on input line 89.
 [4]
-<images//coiron-herramientas.png, id=93, 1520.68124pt x 621.07031pt>
+<images//coiron-herramientas.png, id=105, 1520.68124pt x 621.07031pt>
 File: images//coiron-herramientas.png Graphic file (type png)
 <use images//coiron-herramientas.png>
 Package pdftex.def Info: images//coiron-herramientas.png  used on input line 96
 .
 (pdftex.def)             Requested size: 426.79134pt x 174.306pt.
-LaTeX Info: Redefining \. on input line 108.
-LaTeX Info: Redefining \% on input line 108.
+LaTeX Info: Redefining \. on input line 107.
+LaTeX Info: Redefining \% on input line 107.
  [5 <./images//coiron-menues.png>]
+LaTeX Info: Redefining \. on input line 116.
+LaTeX Info: Redefining \% on input line 116.
+ [6 <./images//coiron-herramientas.png>]
+LaTeX Info: Redefining \. on input line 132.
+LaTeX Info: Redefining \% on input line 132.
 
-LaTeX Warning: Citation `ref_article31' on page 6 undefined on input line 109.
-
-LaTeX Info: Redefining \. on input line 118.
-LaTeX Info: Redefining \% on input line 118.
-[6 <./images//coiron-herramientas.png>] (descripcion-datos.tex
-LaTeX Info: Redefining \. on input line 2.
-LaTeX Info: Redefining \% on input line 2.
- [7]
-LaTeX Info: Redefining \. on input line 32.
-LaTeX Info: Redefining \% on input line 32.
+[7]
+LaTeX Info: Redefining \. on input line 154.
+LaTeX Info: Redefining \% on input line 154.
  [8]
-<images//grafo-30000-completo.png, id=109, 703.87968pt x 637.63219pt>
+
+LaTeX Warning: Citation `ref_article31' on page 9 undefined on input line 169.
+
+LaTeX Info: Redefining \. on input line 170.
+LaTeX Info: Redefining \% on input line 170.
+[9]
+LaTeX Info: Redefining \. on input line 183.
+LaTeX Info: Redefining \% on input line 183.
+ [10] (descripcion-datos.tex
+Underfull \vbox (badness 4792) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 7.
+LaTeX Info: Redefining \% on input line 7.
+ [11]
+<images//grafo-30000-completo.png, id=131, 703.87968pt x 637.63219pt>
 File: images//grafo-30000-completo.png Graphic file (type png)
 <use images//grafo-30000-completo.png>
 Package pdftex.def Info: images//grafo-30000-completo.png  used on input line 3
 5.
 (pdftex.def)             Requested size: 426.79134pt x 386.62pt.
-<images//grafo-10000-solo.png, id=110, 749.80125pt x 678.28406pt>
+LaTeX Info: Redefining \. on input line 43.
+LaTeX Info: Redefining \% on input line 43.
+
+[12]
+LaTeX Info: Redefining \. on input line 43.
+LaTeX Info: Redefining \% on input line 43.
+ [13 <./images//grafo-30000-completo.png>]
+<images//grafo-10000-solo.png, id=139, 749.80125pt x 678.28406pt>
 File: images//grafo-10000-solo.png Graphic file (type png)
 <use images//grafo-10000-solo.png>
 Package pdftex.def Info: images//grafo-10000-solo.png  used on input line 70.
 (pdftex.def)             Requested size: 72.26999pt x 65.36913pt.
-<images//grafo-1000-solo.png, id=111, 797.22844pt x 676.77844pt>
+<images//grafo-1000-solo.png, id=140, 797.22844pt x 676.77844pt>
 File: images//grafo-1000-solo.png Graphic file (type png)
 <use images//grafo-1000-solo.png>
 Package pdftex.def Info: images//grafo-1000-solo.png  used on input line 77.
 (pdftex.def)             Requested size: 72.26999pt x 61.35147pt.
-<images//grafo-100-solo.png, id=112, 1088.56688pt x 679.78969pt>
+<images//grafo-100-solo.png, id=141, 1088.56688pt x 679.78969pt>
 File: images//grafo-100-solo.png Graphic file (type png)
 <use images//grafo-100-solo.png>
 Package pdftex.def Info: images//grafo-100-solo.png  used on input line 84.
@@ -954,25 +999,19 @@ Overfull \hbox (11.39726pt too wide) in paragraph at lines 70--86
  [][][][] 
  []
 
-LaTeX Info: Redefining \. on input line 91.
-LaTeX Info: Redefining \% on input line 91.
-[9]
-LaTeX Info: Redefining \. on input line 91.
-LaTeX Info: Redefining \% on input line 91.
- [10 <./images//grafo-30000-completo.png>]
-<images//grafo-10000-completo.png, id=120, 883.04906pt x 677.53125pt>
+<images//grafo-10000-completo.png, id=142, 883.04906pt x 677.53125pt>
 File: images//grafo-10000-completo.png Graphic file (type png)
 <use images//grafo-10000-completo.png>
 Package pdftex.def Info: images//grafo-10000-completo.png  used on input line 1
 00.
 (pdftex.def)             Requested size: 72.26999pt x 55.4442pt.
-<images//grafo-1000-completo.png, id=121, 878.53218pt x 676.77844pt>
+<images//grafo-1000-completo.png, id=143, 878.53218pt x 676.77844pt>
 File: images//grafo-1000-completo.png Graphic file (type png)
 <use images//grafo-1000-completo.png>
 Package pdftex.def Info: images//grafo-1000-completo.png  used on input line 10
 7.
 (pdftex.def)             Requested size: 72.26999pt x 55.67174pt.
-<images//grafo-100-completo.png, id=122, 830.35219pt x 676.77844pt>
+<images//grafo-100-completo.png, id=144, 830.35219pt x 676.77844pt>
 File: images//grafo-100-completo.png Graphic file (type png)
 <use images//grafo-100-completo.png>
 Package pdftex.def Info: images//grafo-100-completo.png  used on input line 114
@@ -983,18 +1022,22 @@ Overfull \hbox (11.39726pt too wide) in paragraph at lines 100--116
  [][][][] 
  []
 
-<images//grafo-10-completo.png, id=123, 925.95938pt x 677.53125pt>
+LaTeX Info: Redefining \. on input line 121.
+LaTeX Info: Redefining \% on input line 121.
+[14 <./images//grafo-10000-solo.png> <./images//grafo-1000-solo.png> <./images/
+/grafo-100-solo.png>]
+<images//grafo-10-completo.png, id=148, 925.95938pt x 677.53125pt>
 File: images//grafo-10-completo.png Graphic file (type png)
 <use images//grafo-10-completo.png>
 Package pdftex.def Info: images//grafo-10-completo.png  used on input line 125.
 
 (pdftex.def)             Requested size: 426.79134pt x 312.28845pt.
-<images//grafo-5-solo.png, id=124, 713.66624pt x 564.60938pt>
+<images//grafo-5-solo.png, id=149, 713.66624pt x 564.60938pt>
 File: images//grafo-5-solo.png Graphic file (type png)
 <use images//grafo-5-solo.png>
 Package pdftex.def Info: images//grafo-5-solo.png  used on input line 140.
 (pdftex.def)             Requested size: 72.26999pt x 57.17068pt.
-<images//grafo-5-completo.png, id=125, 1078.78032pt x 625.58719pt>
+<images//grafo-5-completo.png, id=150, 1078.78032pt x 625.58719pt>
 File: images//grafo-5-completo.png Graphic file (type png)
 <use images//grafo-5-completo.png>
 Package pdftex.def Info: images//grafo-5-completo.png  used on input line 147.
@@ -1004,32 +1047,31 @@ Overfull \hbox (7.8314pt too wide) in paragraph at lines 140--149
  [][][] 
  []
 
-LaTeX Info: Redefining \. on input line 151.
-LaTeX Info: Redefining \% on input line 151.
-[11 <./images//grafo-10000-solo.png> <./images//grafo-1000-solo.png> <./images/
-/grafo-100-solo.png> <./images//grafo-10000-completo.png> <./images//grafo-1000
--completo.png> <./images//grafo-100-completo.png>]
-LaTeX Info: Redefining \. on input line 151.
-LaTeX Info: Redefining \% on input line 151.
- [12 <./images//grafo-10-completo.png>]
 
-LaTeX Warning: Citation `ref_article32' on page 13 undefined on input line 153.
+LaTeX Warning: Citation `ref_article32' on page 15 undefined on input line 153.
 
 
+LaTeX Info: Redefining \. on input line 154.
+LaTeX Info: Redefining \% on input line 154.
+[15 <./images//grafo-10000-completo.png> <./images//grafo-1000-completo.png> <.
+/images//grafo-100-completo.png>]
+LaTeX Info: Redefining \. on input line 154.
+LaTeX Info: Redefining \% on input line 154.
+ [16 <./images//grafo-10-completo.png> <./images//grafo-5-solo.png> <./images//
+grafo-5-completo.png>]
 
-LaTeX Warning: Citation `ref_article34' on page 13 undefined on input line 155.
+LaTeX Warning: Citation `ref_article34' on page 17 undefined on input line 155.
 
 
-LaTeX Info: Redefining \. on input line 156.
-LaTeX Info: Redefining \% on input line 156.
-[13 <./images//grafo-5-solo.png> <./images//grafo-5-completo.png>]
 
-LaTeX Warning: Citation `ref_visjs' on page 14 undefined on input line 161.
+LaTeX Warning: Citation `ref_visjs' on page 17 undefined on input line 161.
 
-))
+LaTeX Info: Redefining \. on input line 166.
+LaTeX Info: Redefining \% on input line 166.
+[17]))
 LaTeX Info: Redefining \. on input line 109.
 LaTeX Info: Redefining \% on input line 109.
- [14]
+ [18]
 Cap\'{\i }tulo 4.
 (visualizacion.tex) [1
 
@@ -1044,7 +1086,7 @@ Cap\'{\i }tulo 5.
 LaTeX Info: Redefining \. on input line 27.
 LaTeX Info: Redefining \% on input line 27.
  [2]
-<images//hermanos-curruman.png, id=151, 1092.33093pt x 677.53125pt>
+<images//hermanos-curruman.png, id=176, 1092.33093pt x 677.53125pt>
 File: images//hermanos-curruman.png Graphic file (type png)
 <use images//hermanos-curruman.png>
 Package pdftex.def Info: images//hermanos-curruman.png  used on input line 34.
@@ -1087,7 +1129,7 @@ LaTeX Info: Redefining \% on input line 52.
 LaTeX Info: Redefining \. on input line 95.
 LaTeX Info: Redefining \% on input line 95.
  [6]
-<images//6nodos-pageRank-sinColor.png, id=171, 435.6275pt x 185.69376pt>
+<images//6nodos-pageRank-sinColor.png, id=196, 435.6275pt x 185.69376pt>
 File: images//6nodos-pageRank-sinColor.png Graphic file (type png)
 <use images//6nodos-pageRank-sinColor.png>
 Package pdftex.def Info: images//6nodos-pageRank-sinColor.png  used on input li
@@ -1102,13 +1144,13 @@ LaTeX Warning: Citation `ma2014exploring' on page 7 undefined on input line 140
 LaTeX Info: Redefining \. on input line 143.
 LaTeX Info: Redefining \% on input line 143.
  [8 <./images//6nodos-pageRank-sinColor.png>]
-<images//grafo-10-completo-ConColor.png, id=179, 682.80093pt x 529.98pt>
+<images//grafo-10-completo-ConColor.png, id=204, 682.80093pt x 529.98pt>
 File: images//grafo-10-completo-ConColor.png Graphic file (type png)
 <use images//grafo-10-completo-ConColor.png>
 Package pdftex.def Info: images//grafo-10-completo-ConColor.png  used on input 
 line 150.
 (pdftex.def)             Requested size: 426.79134pt x 331.2771pt.
-<images//BandaLCDs1.png, id=180, 711.4078pt x 598.48593pt>
+<images//BandaLCDs1.png, id=205, 711.4078pt x 598.48593pt>
 File: images//BandaLCDs1.png Graphic file (type png)
 <use images//BandaLCDs1.png>
 Package pdftex.def Info: images//BandaLCDs1.png  used on input line 163.
@@ -1150,7 +1192,13 @@ LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
  [18
 
-]) [19] (Main.aux
+] [19]
+LaTeX Info: Redefining \. on input line 112.
+LaTeX Info: Redefining \% on input line 112.
+ [20])
+LaTeX Info: Redefining \. on input line 144.
+LaTeX Info: Redefining \% on input line 144.
+ [21] (Main.aux
 LaTeX Info: Redefining \. on input line 9.
 LaTeX Info: Redefining \% on input line 9.
 LaTeX Info: Redefining \. on input line 10.
@@ -1161,10 +1209,10 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 16351 strings out of 478582
- 326498 string characters out of 2843400
- 586905 words of memory out of 3000000
- 34157 multiletter control sequences out of 15000+600000
+ 16373 strings out of 478582
+ 326916 string characters out of 2843400
+ 586986 words of memory out of 3000000
+ 34179 multiletter control sequences out of 15000+600000
  491236 words of font info for 76 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,9n,94p,2246b,814s stack positions out of 10000i,1000n,20000p,200000b,80000s
@@ -1196,9 +1244,9 @@ ublic/amsfonts/cm/cmmi8.pfb><C:/Users/swahler/AppData/Local/Programs/MiKTeX/fon
 ts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/swahler/AppData/Local/Programs/
 MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/swahler/AppData/Local/
 Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on Main.pdf (50 pages, 4712394 bytes).
+Output written on Main.pdf (60 pages, 4753665 bytes).
 PDF statistics:
- 878 PDF objects out of 1000 (max. 8388607)
+ 955 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  108 words of extra memory for PDF output out of 10000 (max. 10000000)
 

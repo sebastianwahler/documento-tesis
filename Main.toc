@@ -7,6 +7,10 @@
 \contentsline {section}{\numberline {1.2}Plan de tesis y principales contribuciones}{3}{}%
 \contentsline {section}{\numberline {1.3}Trabajos previos relacionados}{3}{}%
 \contentsline {chapter}{\numberline {2}An\'alisis de Redes Sociales (SNA)}{1}{}%
+\contentsline {section}{\numberline {2.1}Introducci\'on}{1}{}%
+\contentsline {section}{\numberline {2.2}Historia y desarrollo de la teor\IeC {\'\i }a de Redes Sociales}{3}{}%
+\contentsline {section}{\numberline {2.3}Conceptos fundamentales en el an\'alisis de redes sociales}{5}{}%
+\contentsline {section}{\numberline {2.4}SNA en investigaciones criminales}{6}{}%
 \contentsline {chapter}{\numberline {3}MPF Chubut - Sistema Coir\'on}{1}{}%
 \contentsline {section}{\numberline {3.1}Identidad}{2}{}%
 \contentsline {section}{\numberline {3.2}Caracter\IeC {\'\i }sticas generales del Sistema Coir\'on}{2}{}%
@@ -14,14 +18,19 @@
 \contentsline {subsection}{\numberline {3.3.1}Formas de Uso}{4}{}%
 \contentsline {subsubsection}{\numberline {3.3.1.1}Men\'u Principal}{4}{}%
 \contentsline {subsubsection}{\numberline {3.3.1.2}Herramientas comunes}{4}{}%
-\contentsline {section}{\numberline {3.4}Grupos de Pertenencia}{5}{}%
-\contentsline {section}{\numberline {3.5}Red de Grupos de Pertenencia}{8}{}%
-\contentsline {section}{\numberline {3.6}Descripci\'on general de los datos}{8}{}%
-\contentsline {subsection}{\numberline {3.6.1}Dataset de Delitos}{8}{}%
-\contentsline {subsection}{\numberline {3.6.2}Propiedades de la red}{9}{}%
-\contentsline {subsubsection}{\numberline {3.6.2.1}Centralidad de Grado}{13}{}%
-\contentsline {subsubsection}{\numberline {3.6.2.2}Transitividad}{13}{}%
-\contentsline {subsection}{\numberline {3.6.3}Visualizaci\'on}{14}{}%
+\contentsline {section}{\numberline {3.4}Bandas delictivas}{5}{}%
+\contentsline {subsubsection}{\numberline {3.4.0.1}Elemento organizativo}{6}{}%
+\contentsline {subsubsection}{\numberline {3.4.0.2}Estabilidad}{7}{}%
+\contentsline {subsubsection}{\numberline {3.4.0.3}Percepci\'on ciudadana y peligrosidad}{7}{}%
+\contentsline {section}{\numberline {3.5}An\'alisis y crimen organizado}{7}{}%
+\contentsline {section}{\numberline {3.6}Grupos de Pertenencia}{9}{}%
+\contentsline {section}{\numberline {3.7}Red de Grupos de Pertenencia}{11}{}%
+\contentsline {section}{\numberline {3.8}Descripci\'on general de los datos}{11}{}%
+\contentsline {subsection}{\numberline {3.8.1}Dataset de Delitos}{12}{}%
+\contentsline {subsection}{\numberline {3.8.2}Propiedades de la red}{12}{}%
+\contentsline {subsubsection}{\numberline {3.8.2.1}Centralidad de Grado}{15}{}%
+\contentsline {subsubsection}{\numberline {3.8.2.2}Transitividad}{17}{}%
+\contentsline {subsection}{\numberline {3.8.3}Visualizaci\'on}{17}{}%
 \contentsline {chapter}{\numberline {4}Visualizaci\'on}{1}{}%
 \contentsline {chapter}{\numberline {5}Propuesta de desarrollo}{1}{}%
 \contentsline {subsection}{\numberline {5.0.1}Identificaci\'on de posibles Bandas delictivas}{1}{}%
