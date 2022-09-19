@@ -1,5 +1,11 @@
 \begin{thebibliography}{10}
 
+\bibitem{baeza2004web}
+{\sc Baeza-Yates, R., and Davis, E.}
+\newblock Web page ranking using link attributes.
+\newblock In {\em Proceedings of the 13th international World Wide Web
+  conference on Alternate track papers \& posters\/} (2004), pp.~328--329.
+
 \bibitem{barnes1954class}
 {\sc Barnes, J.~A.}
 \newblock Class and committees in a norwegian island parish.

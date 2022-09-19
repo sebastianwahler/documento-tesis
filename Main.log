@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.3.21)  18 SEP 2022 14:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.3.21)  19 SEP 2022 19:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1155,21 +1155,21 @@ File: images//BandaLCDs1.png Graphic file (type png)
 <use images//BandaLCDs1.png>
 Package pdftex.def Info: images//BandaLCDs1.png  used on input line 163.
 (pdftex.def)             Requested size: 426.79134pt x 359.0578pt.
-) [9]
-LaTeX Info: Redefining \. on input line 126.
-LaTeX Info: Redefining \% on input line 126.
+ [9]
+LaTeX Info: Redefining \. on input line 172.
+LaTeX Info: Redefining \% on input line 172.
  [10 <./images//grafo-10-completo-ConColor.png>] [11 <./images//BandaLCDs1.png>
-]
+])
 LaTeX Info: Redefining \. on input line 126.
 LaTeX Info: Redefining \% on input line 126.
- [12
-
-]
+ [12]
 Cap\'{\i }tulo 6.
 (conclusiones.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [13]
+ [13
+
+]
 
 LaTeX Warning: Citation `carley2006destabilization' on page 14 undefined on inp
 ut line 22.
@@ -1193,8 +1193,8 @@ LaTeX Info: Redefining \% on input line 1.
  [18
 
 ] [19]
-LaTeX Info: Redefining \. on input line 112.
-LaTeX Info: Redefining \% on input line 112.
+LaTeX Info: Redefining \. on input line 105.
+LaTeX Info: Redefining \% on input line 105.
  [20])
 LaTeX Info: Redefining \. on input line 144.
 LaTeX Info: Redefining \% on input line 144.
@@ -1209,10 +1209,10 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 16373 strings out of 478582
- 326916 string characters out of 2843400
- 586986 words of memory out of 3000000
- 34179 multiletter control sequences out of 15000+600000
+ 16380 strings out of 478582
+ 327038 string characters out of 2843400
+ 587024 words of memory out of 3000000
+ 34186 multiletter control sequences out of 15000+600000
  491236 words of font info for 76 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,9n,94p,2246b,814s stack positions out of 10000i,1000n,20000p,200000b,80000s
@@ -1244,9 +1244,9 @@ ublic/amsfonts/cm/cmmi8.pfb><C:/Users/swahler/AppData/Local/Programs/MiKTeX/fon
 ts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/swahler/AppData/Local/Programs/
 MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/swahler/AppData/Local/
 Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on Main.pdf (60 pages, 4753665 bytes).
+Output written on Main.pdf (60 pages, 4759755 bytes).
 PDF statistics:
- 955 PDF objects out of 1000 (max. 8388607)
+ 959 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  108 words of extra memory for PDF output out of 10000 (max. 10000000)
 

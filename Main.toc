@@ -42,6 +42,8 @@
 \contentsline {subsubsection}{\numberline {5.0.1.6}Aplicaci\'on de PageRank para bandas delictivas}{5}{}%
 \contentsline {subsubsection}{\numberline {5.0.1.7}Detecci\'on de comunidades}{7}{}%
 \contentsline {subsubsection}{\numberline {5.0.1.8}Casos de estudio reales}{9}{}%
+\contentsline {subsubsection}{\numberline {5.0.1.9}Mejoras a PageRank - Peso a los enlaces}{9}{}%
+\contentsline {subsubsection}{\numberline {5.0.1.10}Mejoras a PageRank - Peso a los nodos}{12}{}%
 \contentsline {chapter}{\numberline {6}Conclusiones y Resultados Obtenidos}{13}{}%
 \contentsline {subsection}{\numberline {6.0.1}trabajos futuros}{14}{}%
 \contentsline {subsubsection}{\numberline {6.0.1.1}Optimizaci\'on de PageRank para Bandas Delictivas}{14}{}%

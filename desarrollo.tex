@@ -164,3 +164,35 @@ Se ejecutó el algoritmo también para casos de estudio real resueltos en el MPF, 
 	\caption{Resultado de ejecución de PageRank para el caso real de robo de LCDs.} 
 	\label{fig:BandaLCDs1}
 \end{figure}
+
+%MEJORAS PROPIAS AL ALGORITMO DE PAGERANK
+\subsubsection{Mejoras a PageRank - Peso a los enlaces}
+
+La idea detrás de PageRank es que las "buenas" páginas hacen referencia a otras "buenas" páginas. Por lo tanto, las páginas a las que hacen referencia esas "buenas" páginas tienen un PageRank más alto. Suponiendo que un usuario navega por la Web de forma aleatoria, de modo que, si está en una página, con cierta probabilidad se aburre y abandona la página, o elige de manera uniforme y aleatoria seguir uno de los enlaces de la misma página en la que se encuentra (eliminando los autoenlaces). Por lo tanto, la probabilidad de estar en la página "p" es
+
+\begin{equation} 
+	\label{eqn:ecuacionWLRank1} 
+	PR(p) = \frac{q}{T} + (1 - q) \sum_{i} \frac{PR(r_i)}{L(r_i)} 
+\end{equation}
+
+donde T es el número total de páginas, q es la probabilidad de salir de la página p (en el trabajo original de PageRank se sugiere q = 0:15), ri son las páginas que apuntan a la página p, y L(ri) es el número de enlaces en la página ri. Estos valores se pueden usar como clasificación de páginas y se pueden calcular mediante un algoritmo iterativo que converge bastante rápido, ya que estamos interesados ????en el orden de clasificación en lugar de los valores de clasificación reales. El término q se denomina factor de amortiguamiento, ya que disminuye exponencialmente el spam de enlaces basado en secuencias de enlaces que regresan a una página.
+
+De aquí surge una variante al algoritmo de PageRank original de Google, llamada WLRank propuesta en el trabajo de Ri Baeza-Yates y Emilio Davies \cite{baeza2004web}.
+
+WLRank (Weighted Links Rank) asigna el valor de clasificación R(i) a la página i usando las siguientes ecuaciones:
+
+\begin{equation} 
+	\label{eqn:ecuacionWLRank2} 
+	R(i) = \frac{q}{T} + (1 - q) \sum_{j} \frac{W(j,i)R(j)}{\sum_{k}W(j,k)} 
+\end{equation}
+
+\begin{equation} 
+	\label{eqn:ecuacionWLRank3} 
+	W(j,i) = L(j,i)(c+T(j,i)+AL(j,i)+RP(j,i))
+\end{equation}
+
+donde dado un enlace de la página j a la página i se tiene:
+
+
+
+\subsubsection{Mejoras a PageRank - Peso a los nodos}
