@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.3.21)  19 SEP 2022 19:40
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.3.21)  2 NOV 2022 20:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -709,19 +709,21 @@ Package pdftex.def Info: UniLogo.pdf  used on input line 4.
 (pdftex.def)             Requested size: 113.80792pt x 113.80853pt.
  [1
 
-]) (resumen.tex
-Underfull \vbox (badness 1728) has occurred while \output is active []
+]) (prefacio.tex) (resumen.tex [1
 
- [1
+] [2
 
 ]
+Underfull \vbox (badness 1728) has occurred while \output is active []
+
+ [3]
 LaTeX Font Info:    Trying to load font information for T1+cmss on input line 1
 1.
 
 (C:\Users\swahler\AppData\Local\Programs\MiKTeX\tex/latex/base\t1cmss.fd
 File: t1cmss.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 ))
-[2] (Main.toc
+[4] (Main.toc
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 LaTeX Info: Redefining \. on input line 2.
@@ -736,20 +738,25 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 4.
 (C:\Users\swahler\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-[3
+[5
 
 ])
 \tf@toc=\write5
 \openout5 = `Main.toc'.
 
- [4]
+ (Agradecimientos.tex [6]) (Resumen de Contenidos.tex [7
+
+] [8
+
+]) [9] [10
+
+]
 Cap\'{\i }tulo 1.
 (introduccion.tex
 
 LaTeX Warning: Citation `ref_article1' on page 1 undefined on input line 17.
 
 [1
-
 
 ]
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 3
@@ -769,11 +776,11 @@ File: UniLogo.pdf Graphic file (type pdf)
 Package pdftex.def Info: UniLogo.pdf  used on input line 53.
 (pdftex.def)             Requested size: 85.35315pt x 85.35101pt.
 )
-LaTeX Info: Redefining \. on input line 93.
-LaTeX Info: Redefining \% on input line 93.
+LaTeX Info: Redefining \. on input line 98.
+LaTeX Info: Redefining \% on input line 98.
  [3]
-LaTeX Info: Redefining \. on input line 93.
-LaTeX Info: Redefining \% on input line 93.
+LaTeX Info: Redefining \. on input line 98.
+LaTeX Info: Redefining \% on input line 98.
  [4
 
 ]
@@ -894,8 +901,8 @@ LaTeX Warning: Citation `ref_article28' on page 8 undefined on input line 77.
 LaTeX Warning: Citation `ref_article29' on page 8 undefined on input line 77.
 
 )
-LaTeX Info: Redefining \. on input line 101.
-LaTeX Info: Redefining \% on input line 101.
+LaTeX Info: Redefining \. on input line 106.
+LaTeX Info: Redefining \% on input line 106.
  [8]
 Cap\'{\i }tulo 3.
 (coiron.tex
@@ -905,7 +912,7 @@ LaTeX Warning: Citation `ref_article30' on page 1 undefined on input line 1.
 [1
 
 ]
-<images//coiron-logo.png, id=90, 150.5625pt x 65.24374pt>
+<images//coiron-logo.png, id=109, 150.5625pt x 65.24374pt>
 File: images//coiron-logo.png Graphic file (type png)
 <use images//coiron-logo.png>
 Package pdftex.def Info: images//coiron-logo.png  used on input line 24.
@@ -913,7 +920,7 @@ Package pdftex.def Info: images//coiron-logo.png  used on input line 24.
 LaTeX Info: Redefining \. on input line 35.
 LaTeX Info: Redefining \% on input line 35.
  [2 <./images//coiron-logo.png>]
-<images//coiron-vinculos.png, id=96, 232.578pt x 135.0135pt>
+<images//coiron-vinculos.png, id=115, 232.578pt x 135.0135pt>
 File: images//coiron-vinculos.png Graphic file (type png)
 <use images//coiron-vinculos.png>
 Package pdftex.def Info: images//coiron-vinculos.png  used on input line 42.
@@ -925,7 +932,7 @@ LaTeX Info: Redefining \% on input line 58.
 LaTeX Warning: Reference `fig:coiro-menues' on page 4 undefined on input line 7
 5.
 
-<images//coiron-menues.png, id=101, 615.0478pt x 311.66437pt>
+<images//coiron-menues.png, id=120, 615.0478pt x 311.66437pt>
 File: images//coiron-menues.png Graphic file (type png)
 <use images//coiron-menues.png>
 Package pdftex.def Info: images//coiron-menues.png  used on input line 79.
@@ -933,7 +940,7 @@ Package pdftex.def Info: images//coiron-menues.png  used on input line 79.
 LaTeX Info: Redefining \. on input line 89.
 LaTeX Info: Redefining \% on input line 89.
 [4]
-<images//coiron-herramientas.png, id=105, 1520.68124pt x 621.07031pt>
+<images//coiron-herramientas.png, id=124, 1520.68124pt x 621.07031pt>
 File: images//coiron-herramientas.png Graphic file (type png)
 <use images//coiron-herramientas.png>
 Package pdftex.def Info: images//coiron-herramientas.png  used on input line 96
@@ -966,7 +973,7 @@ Underfull \vbox (badness 4792) has occurred while \output is active []
 LaTeX Info: Redefining \. on input line 7.
 LaTeX Info: Redefining \% on input line 7.
  [11]
-<images//grafo-30000-completo.png, id=131, 703.87968pt x 637.63219pt>
+<images//grafo-30000-completo.png, id=150, 703.87968pt x 637.63219pt>
 File: images//grafo-30000-completo.png Graphic file (type png)
 <use images//grafo-30000-completo.png>
 Package pdftex.def Info: images//grafo-30000-completo.png  used on input line 3
@@ -979,17 +986,17 @@ LaTeX Info: Redefining \% on input line 43.
 LaTeX Info: Redefining \. on input line 43.
 LaTeX Info: Redefining \% on input line 43.
  [13 <./images//grafo-30000-completo.png>]
-<images//grafo-10000-solo.png, id=139, 749.80125pt x 678.28406pt>
+<images//grafo-10000-solo.png, id=158, 749.80125pt x 678.28406pt>
 File: images//grafo-10000-solo.png Graphic file (type png)
 <use images//grafo-10000-solo.png>
 Package pdftex.def Info: images//grafo-10000-solo.png  used on input line 70.
 (pdftex.def)             Requested size: 72.26999pt x 65.36913pt.
-<images//grafo-1000-solo.png, id=140, 797.22844pt x 676.77844pt>
+<images//grafo-1000-solo.png, id=159, 797.22844pt x 676.77844pt>
 File: images//grafo-1000-solo.png Graphic file (type png)
 <use images//grafo-1000-solo.png>
 Package pdftex.def Info: images//grafo-1000-solo.png  used on input line 77.
 (pdftex.def)             Requested size: 72.26999pt x 61.35147pt.
-<images//grafo-100-solo.png, id=141, 1088.56688pt x 679.78969pt>
+<images//grafo-100-solo.png, id=160, 1088.56688pt x 679.78969pt>
 File: images//grafo-100-solo.png Graphic file (type png)
 <use images//grafo-100-solo.png>
 Package pdftex.def Info: images//grafo-100-solo.png  used on input line 84.
@@ -999,19 +1006,19 @@ Overfull \hbox (11.39726pt too wide) in paragraph at lines 70--86
  [][][][] 
  []
 
-<images//grafo-10000-completo.png, id=142, 883.04906pt x 677.53125pt>
+<images//grafo-10000-completo.png, id=161, 883.04906pt x 677.53125pt>
 File: images//grafo-10000-completo.png Graphic file (type png)
 <use images//grafo-10000-completo.png>
 Package pdftex.def Info: images//grafo-10000-completo.png  used on input line 1
 00.
 (pdftex.def)             Requested size: 72.26999pt x 55.4442pt.
-<images//grafo-1000-completo.png, id=143, 878.53218pt x 676.77844pt>
+<images//grafo-1000-completo.png, id=162, 878.53218pt x 676.77844pt>
 File: images//grafo-1000-completo.png Graphic file (type png)
 <use images//grafo-1000-completo.png>
 Package pdftex.def Info: images//grafo-1000-completo.png  used on input line 10
 7.
 (pdftex.def)             Requested size: 72.26999pt x 55.67174pt.
-<images//grafo-100-completo.png, id=144, 830.35219pt x 676.77844pt>
+<images//grafo-100-completo.png, id=163, 830.35219pt x 676.77844pt>
 File: images//grafo-100-completo.png Graphic file (type png)
 <use images//grafo-100-completo.png>
 Package pdftex.def Info: images//grafo-100-completo.png  used on input line 114
@@ -1026,18 +1033,18 @@ LaTeX Info: Redefining \. on input line 121.
 LaTeX Info: Redefining \% on input line 121.
 [14 <./images//grafo-10000-solo.png> <./images//grafo-1000-solo.png> <./images/
 /grafo-100-solo.png>]
-<images//grafo-10-completo.png, id=148, 925.95938pt x 677.53125pt>
+<images//grafo-10-completo.png, id=167, 925.95938pt x 677.53125pt>
 File: images//grafo-10-completo.png Graphic file (type png)
 <use images//grafo-10-completo.png>
 Package pdftex.def Info: images//grafo-10-completo.png  used on input line 125.
 
 (pdftex.def)             Requested size: 426.79134pt x 312.28845pt.
-<images//grafo-5-solo.png, id=149, 713.66624pt x 564.60938pt>
+<images//grafo-5-solo.png, id=168, 713.66624pt x 564.60938pt>
 File: images//grafo-5-solo.png Graphic file (type png)
 <use images//grafo-5-solo.png>
 Package pdftex.def Info: images//grafo-5-solo.png  used on input line 140.
 (pdftex.def)             Requested size: 72.26999pt x 57.17068pt.
-<images//grafo-5-completo.png, id=150, 1078.78032pt x 625.58719pt>
+<images//grafo-5-completo.png, id=169, 1078.78032pt x 625.58719pt>
 File: images//grafo-5-completo.png Graphic file (type png)
 <use images//grafo-5-completo.png>
 Package pdftex.def Info: images//grafo-5-completo.png  used on input line 147.
@@ -1069,15 +1076,15 @@ LaTeX Warning: Citation `ref_visjs' on page 17 undefined on input line 161.
 LaTeX Info: Redefining \. on input line 166.
 LaTeX Info: Redefining \% on input line 166.
 [17]))
-LaTeX Info: Redefining \. on input line 109.
-LaTeX Info: Redefining \% on input line 109.
+LaTeX Info: Redefining \. on input line 114.
+LaTeX Info: Redefining \% on input line 114.
  [18]
 Cap\'{\i }tulo 4.
 (visualizacion.tex) [1
 
 ]
-LaTeX Info: Redefining \. on input line 117.
-LaTeX Info: Redefining \% on input line 117.
+LaTeX Info: Redefining \. on input line 122.
+LaTeX Info: Redefining \% on input line 122.
  [2
 
 ]
@@ -1086,7 +1093,7 @@ Cap\'{\i }tulo 5.
 LaTeX Info: Redefining \. on input line 27.
 LaTeX Info: Redefining \% on input line 27.
  [2]
-<images//hermanos-curruman.png, id=176, 1092.33093pt x 677.53125pt>
+<images//hermanos-curruman.png, id=195, 1092.33093pt x 677.53125pt>
 File: images//hermanos-curruman.png Graphic file (type png)
 <use images//hermanos-curruman.png>
 Package pdftex.def Info: images//hermanos-curruman.png  used on input line 34.
@@ -1129,7 +1136,7 @@ LaTeX Info: Redefining \% on input line 52.
 LaTeX Info: Redefining \. on input line 95.
 LaTeX Info: Redefining \% on input line 95.
  [6]
-<images//6nodos-pageRank-sinColor.png, id=196, 435.6275pt x 185.69376pt>
+<images//6nodos-pageRank-sinColor.png, id=215, 435.6275pt x 185.69376pt>
 File: images//6nodos-pageRank-sinColor.png Graphic file (type png)
 <use images//6nodos-pageRank-sinColor.png>
 Package pdftex.def Info: images//6nodos-pageRank-sinColor.png  used on input li
@@ -1144,13 +1151,13 @@ LaTeX Warning: Citation `ma2014exploring' on page 7 undefined on input line 140
 LaTeX Info: Redefining \. on input line 143.
 LaTeX Info: Redefining \% on input line 143.
  [8 <./images//6nodos-pageRank-sinColor.png>]
-<images//grafo-10-completo-ConColor.png, id=204, 682.80093pt x 529.98pt>
+<images//grafo-10-completo-ConColor.png, id=223, 682.80093pt x 529.98pt>
 File: images//grafo-10-completo-ConColor.png Graphic file (type png)
 <use images//grafo-10-completo-ConColor.png>
 Package pdftex.def Info: images//grafo-10-completo-ConColor.png  used on input 
 line 150.
 (pdftex.def)             Requested size: 426.79134pt x 331.2771pt.
-<images//BandaLCDs1.png, id=205, 711.4078pt x 598.48593pt>
+<images//BandaLCDs1.png, id=224, 711.4078pt x 598.48593pt>
 File: images//BandaLCDs1.png Graphic file (type png)
 <use images//BandaLCDs1.png>
 Package pdftex.def Info: images//BandaLCDs1.png  used on input line 163.
@@ -1160,8 +1167,8 @@ LaTeX Info: Redefining \. on input line 172.
 LaTeX Info: Redefining \% on input line 172.
  [10 <./images//grafo-10-completo-ConColor.png>] [11 <./images//BandaLCDs1.png>
 ])
-LaTeX Info: Redefining \. on input line 126.
-LaTeX Info: Redefining \% on input line 126.
+LaTeX Info: Redefining \. on input line 131.
+LaTeX Info: Redefining \% on input line 131.
  [12]
 Cap\'{\i }tulo 6.
 (conclusiones.tex
@@ -1181,8 +1188,8 @@ LaTeX Warning: Citation `newman2005measure' on page 14 undefined on input line
 LaTeX Info: Redefining \. on input line 25.
 LaTeX Info: Redefining \% on input line 25.
 [14]) [15]
-LaTeX Info: Redefining \. on input line 134.
-LaTeX Info: Redefining \% on input line 134.
+LaTeX Info: Redefining \. on input line 139.
+LaTeX Info: Redefining \% on input line 139.
  [16
 
 ]
@@ -1196,8 +1203,8 @@ LaTeX Info: Redefining \% on input line 1.
 LaTeX Info: Redefining \. on input line 105.
 LaTeX Info: Redefining \% on input line 105.
  [20])
-LaTeX Info: Redefining \. on input line 144.
-LaTeX Info: Redefining \% on input line 144.
+LaTeX Info: Redefining \. on input line 149.
+LaTeX Info: Redefining \% on input line 149.
  [21] (Main.aux
 LaTeX Info: Redefining \. on input line 9.
 LaTeX Info: Redefining \% on input line 9.
@@ -1209,10 +1216,10 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 16380 strings out of 478582
- 327038 string characters out of 2843400
+ 16398 strings out of 478582
+ 327754 string characters out of 2843400
  587024 words of memory out of 3000000
- 34186 multiletter control sequences out of 15000+600000
+ 34195 multiletter control sequences out of 15000+600000
  491236 words of font info for 76 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,9n,94p,2246b,814s stack positions out of 10000i,1000n,20000p,200000b,80000s
@@ -1226,10 +1233,10 @@ eX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0800.pk> <C:\Users\swahler\AppData\Lo
 cal\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1200.pk> <C:\Users\swahler\Ap
 pData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\sw
 ahler\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsl1200.pk> <C:\
-Users\swahler\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.
+Users\swahler\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\eccc1200.
 pk> <C:\Users\swahler\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\e
-cti1200.pk> <C:\Users\swahler\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/
-dpi600\eccc1200.pk> <C:\Users\swahler\AppData\Local\MiKTeX\fonts/pk/ljfour/jkna
+cbx1200.pk> <C:\Users\swahler\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/
+dpi600\ecti1200.pk> <C:\Users\swahler\AppData\Local\MiKTeX\fonts/pk/ljfour/jkna
 ppen/ec/dpi600\ecrm1200.pk> <C:\Users\swahler\AppData\Local\MiKTeX\fonts/pk/ljf
 our/jknappen/ec/dpi600\ecbx2488.pk> <C:\Users\swahler\AppData\Local\MiKTeX\font
 s/pk/ljfour/jknappen/ec/dpi600\eccc1728.pk> <C:\Users\swahler\AppData\Local\MiK
@@ -1244,9 +1251,9 @@ ublic/amsfonts/cm/cmmi8.pfb><C:/Users/swahler/AppData/Local/Programs/MiKTeX/fon
 ts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/swahler/AppData/Local/Programs/
 MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/swahler/AppData/Local/
 Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on Main.pdf (60 pages, 4759755 bytes).
+Output written on Main.pdf (66 pages, 4764839 bytes).
 PDF statistics:
- 959 PDF objects out of 1000 (max. 8388607)
+ 982 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  108 words of extra memory for PDF output out of 10000 (max. 10000000)
 
