@@ -9,8 +9,14 @@
 \contentsline {chapter}{\numberline {2}An\'alisis de Redes Sociales (SNA)}{1}{}%
 \contentsline {section}{\numberline {2.1}Introducci\'on}{1}{}%
 \contentsline {section}{\numberline {2.2}Historia y desarrollo de la teor\IeC {\'\i }a de Redes Sociales}{3}{}%
-\contentsline {section}{\numberline {2.3}Conceptos fundamentales en el an\'alisis de redes sociales}{5}{}%
-\contentsline {section}{\numberline {2.4}SNA en investigaciones criminales}{6}{}%
+\contentsline {section}{\numberline {2.3}Definici\'on y representaci\'on}{5}{}%
+\contentsline {section}{\numberline {2.4}Conceptos fundamentales en el an\'alisis de redes sociales}{6}{}%
+\contentsline {section}{\numberline {2.5}Investigaci\'on Criminal}{6}{}%
+\contentsline {subsection}{\numberline {2.5.1}Objetivos de la Investigaci\'on Criminal}{7}{}%
+\contentsline {subsection}{\numberline {2.5.2}Caracter\IeC {\'\i }sticas de la investigaci\'on criminal}{8}{}%
+\contentsline {subsection}{\numberline {2.5.3}Proceso de la investigaci\'on criminal}{9}{}%
+\contentsline {subsection}{\numberline {2.5.4}Pasos generales en la investigaci\'on criminal}{9}{}%
+\contentsline {section}{\numberline {2.6}SNA en investigaciones criminales}{11}{}%
 \contentsline {chapter}{\numberline {3}MPF Chubut - Sistema Coir\'on}{1}{}%
 \contentsline {section}{\numberline {3.1}Identidad}{2}{}%
 \contentsline {section}{\numberline {3.2}Caracter\IeC {\'\i }sticas generales del Sistema Coir\'on}{2}{}%

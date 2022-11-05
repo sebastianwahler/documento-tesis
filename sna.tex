@@ -39,9 +39,7 @@ La teoría de las redes sociales debe su origen a la confluencia de diferentes te
 
 Scott \cite{scott2011social} considera que el origen de la teoría de las redes se puede señalar desde los aportes producidos por la gestalt a través de Kurt Lewin quien sostuvo que la percepción, la conducta de los individuos y la estructura misma del grupo en el que se encuentran inmersos, están inscritos a un espacio social formado por el grupo y el entorno que lo rodea constituyendo de esa manera un campo de relaciones que, según Lewin, podían ser analizadas formalmente desde modelos matemáticos. Dentro de ésta perspectiva se incluye también los razonamientos de Moreno hacia 1934 con el desarrollo de la sociometría, precedida de los avances en la teoría matemática de los grafos hacia finales de los 40 y principios de los 50 con el fin de dar explicación de la estructura social de pequeños grupos, intentando evidenciar el impacto
 de los mismos sobre la conducta individual \cite{galaskiewicz1993social}.
-De acuerdo con el análisis de Lozares \cite{lozares1996teoria} a los argumentos de Scott, las redes tuvieron una influencia notoria del estructural funcionalismo, de la antropología y del estudio de la estructura de grupos desarrollado por ésta en Harvard en los años 30 y 40
-en los que se incluyó el uso de sociogramas. En concordancia con éste movimiento de pensamiento surgen la escuela antropológica de Manchester con Max Gluckman como pensador resaltable, la cual consideró que se debía dar mayor importancia al conflicto que a la cohesión como elemento transformador y de mantenimiento del grupo, consecuentemente con ello éste
-modelo de estudio de los grupos consideró la estructura de los mismos como redes relacionales susceptibles de ser analizadas mediante técnicas determinadas con conceptos sociológicos mayormente aplicados a la teoría del conflicto.
+De acuerdo con el análisis de Lozares \cite{lozares1996teoria} a los argumentos de Scott, las redes tuvieron una influencia notoria del estructural funcionalismo, de la antropología y del estudio de la estructura de grupos desarrollado por ésta en Harvard en los años 30 y 40 en los que se incluyó el uso de sociogramas. En concordancia con éste movimiento de pensamiento surgen la escuela antropológica de Manchester con Max Gluckman como pensador resaltable, la cual consideró que se debía dar mayor importancia al conflicto que a la cohesión como elemento transformador y de mantenimiento del grupo, consecuentemente con ello éste modelo de estudio de los grupos consideró la estructura de los mismos como redes relacionales susceptibles de ser analizadas mediante técnicas determinadas con conceptos sociológicos mayormente aplicados a la teoría del conflicto.
 
 Barnes \cite{barnes1954class} analizó relaciones como la amistad, el parentesco y el vecinaje en grupos de pescadores, llegando a la conclusión que la totalidad de las relaciones sociales debían estudiarse como un conjunto de puntos (correspondientes a nodos) que se vincularan con líneas para formar redes totales de relaciones, siendo éste un
 modelo gráfico empleado en la actualidad. Posteriormente
@@ -49,16 +47,112 @@ Nadel \cite{nadel2013theory}, consideró que las redes sociales son estructuras d
 
 Pese a todos los avances en materia de estudio de las redes, fueron las décadas de los 70 y los 80 las que produjeron innumerables temas de investigación asociados a las redes sociales así como un interés marcado de los investigadores por desarrollar análisis de las mismas bajo diversas perspectivas, pero esencialmente bajo el reconocimiento del surgimiento y madurez de un método de investigación que permitía el abordaje de la estructura social \cite{lozares1996teoria}.
 
+\section{Definición y representación}
+
+Las Redes Sociales pueden definirse como un conjunto bien delimitado de
+actores - individuos, grupos, organizaciones, comunidades, sociedades globales, etc. - vinculados unos a otros a través de una relación o un conjunto de relaciones sociales. Mitchell \cite{mitchell1969redes} añade que las características de estos lazos en tanto que totalidad pueden ser usados para interpretar 10s comportamientos sociales de las personas implicadas, pero parece más bien un objetivo genérico que un criterio especifico de definición. Otras definiciones son mis instrumentales o más centradas en el aparato metodológico, como la de
+Freeman \cite{freeman1992filling} "colección más o menos precisa de conceptos y procedimientos analíticos y metodológicos que facilita la recogida de datos y el estudio sistemático de pautas de relaciones sociales entre la gente". El rasgo más característico de las redes sociales consiste en que requieren "conceptos, definiciones y procesos en los que las unidades sociales aparecen vinculadas unas a otras a través de diversas relaciones" (S. Wasserman y K. Faust) \cite{wasserman1994social}.
+Se pueden dar diversas maneras de formalizar y medir los datos y el análisis de las redes sociales, las dos más importantes: la teoría de los grafos, operando a partir de productos cartesianos con los grafos como representación, y la teoría matricial, a partir de las sociomatrices como matriz de datos inicial.
 
 \section{Conceptos fundamentales en el análisis de redes sociales}
 
 S. Wasserman y K. Faust \cite{wasserman1994social}, definen los siguientes conceptos:
-1. Los actores sociales: son entidades sociales sujetos de los vínculos de las redes sociales, Son de diverso tipo: individuos, empresas, unidades colectivas sociales, departamentos en una empresa, agencias de servicio público en la ciudad, estados, etc.
-2. Los lazos relacionales: son los vínculos entre pares de actores, unidad de análisis en las redes sociales. Son de muy diverso tipo: personales - amistad, respeto, consejo, etc.; transferencias de recursos - bienes, dinero, información, etc.; asociaciones, interacciones comportamentales; movilidad geográfica o social; conexiones físicas; relaciones formales u organizacionales; etc.
-3. Diada: es la relación especifica entre dos actores. Es inherente al par y no se piensa como propiedad de un solo actor. Una diada consiste en un par de actores y el posible lazo entre ambos.
-4. Triada: es el conjunto de tres actores y sus relaciones. Permite el análisis de balance y también el considerar propiedades transitivas.
-5. Subgrupo: es una extensión de los conceptos anteriores. Subgrupo de actores es cualquier subconjunto de actores además de los lazos existentes entre ellos.
-6. Grupos: las redes sociales tienen además capacidad de modelizar relaciones entre sistemas de actores que denominamos grupos en tanto que conjunto de todos los actores sobre los que se miden los lazos. Se trata siempre de un conjunto finito.
+
+\begin{itemize} 
+	\item Los actores sociales: son entidades sociales sujetos de los vínculos de las redes sociales, Son de diverso tipo: individuos, empresas, unidades colectivas sociales, departamentos en una empresa, agencias de servicio público en la ciudad, estados, etc.
+	\item Los lazos relacionales: son los vínculos entre pares de actores, unidad de análisis en las redes sociales. Son de muy diverso tipo: personales - amistad, respeto, consejo, etc.; transferencias de recursos - bienes, dinero, información, etc.; asociaciones, interacciones comportamentales; movilidad geográfica o social; conexiones físicas; relaciones formales u organizacionales; etc.
+	\item Diada: es la relación especifica entre dos actores. Es inherente al par y no se piensa como propiedad de un solo actor. Una diada consiste en un par de actores y el posible lazo entre ambos.
+	\item Triada: es el conjunto de tres actores y sus relaciones. Permite el análisis de balance y también el considerar propiedades transitivas.
+	\item Subgrupo: es una extensión de los conceptos anteriores. Subgrupo de actores es cualquier subconjunto de actores además de los lazos existentes entre ellos.
+	\item Grupos: las redes sociales tienen además capacidad de modelizar relaciones entre sistemas de actores que denominamos grupos en tanto que conjunto de todos los actores sobre los que se miden los lazos. Se trata siempre de un conjunto finito.
+\end{itemize}
+
+\section{Investigación Criminal}
+
+La investigación criminal es un conjunto de saberes interdisciplinarios y acciones sistemáticas integrados para llegar al conocimiento de una verdad relacionada con el fenómeno delictivo.
+
+Comprende:
+
+\begin{itemize} 
+	\item El manejo de estrategias que contextualizan el papel de la víctima, del delincuente y del delito como tal.
+	\item El estudio de las técnicas orientadas a contrarrestar, controlar y prevenir la acción delictiva.
+	\item El dominio de la investigación como proceso metodológico que se basa en los principios y teorías de las respectivas ciencias, en los procedimientos jurídicos y la reconstrucción del hecho mediante las circunstancias de tiempo, modo y/o lugar para sustentar, en forma técnico-científica, los resultados conducentes al esclarecimiento de un presunto delito y a la identificación de sus autores.
+	\item El empleo de los principios y teorías de las ciencias
+	y sus correspondientes disciplinas que apoyan la
+	acción investigativa.
+	\item La aplicación de los procedimientos jurídicos.
+	\item La reconstrucción del hecho para visualizar el todo de lo sucedido a través de circunstancias de: tiempo (duración o lapsos para la ocurrencia de un acto), modo (formas de llevarse a cabo el hecho), lugar (espacios físicos utilizados).
+\end{itemize}
+
+\subsection{Objetivos de la Investigación Criminal}
+
+Los objetivos de la investigación criminal son los
+siguientes:
+
+\begin{itemize} 
+	\item Investigar los hechos consignados en denuncia o
+	querella.
+	\item Determinar si se ha cometido o no un hecho punible
+	tipificado en las normas penales.
+	\item Identificar, con base en los análisis de resultados técnico-científicos y de las diligencias judiciales, a los responsables del hecho criminal.
+	\item Junto con la autoridad judicial competente, propender
+	a la captura del delincuente(s) o persona(s) comprometida(s) en el delito.
+	\item Aportar pruebas y participar en todas las etapas del
+	proceso penal.
+	\item Recuperar los bienes sustraídos y ocupar aquellos en que haya una flagrante comisión de un hecho punible o como resultado del desarrollo investigativo que adelanta en compañía de la autoridad
+	judicial competente respectiva.
+\end{itemize}
+
+\subsection{Características de la investigación criminal}
+
+La investigación criminal presenta las siguientes características:
+
+\begin{itemize} 
+	\item Continuidad: La investigación criminal es un proceso concatenado de actividades que están en interrelación con los diversos aspectos que afectan al problema (delito) por investigar, permitiendo que el investigador logre sus propósitos conocidos como el esclarecimiento del delito, captura del autor o autores y el descubrimiento de la verdad, sin olvidar la criminalística.
+	\item Metódica: La investigación criminal, por ser un proceso, es planeada, no es errática; el investigador criminal sabe lo que busca, cómo encontrarlo y a dónde recurrir para confrontar hipótesis.
+	\item Explicativo-causal: La investigación criminal permitirá al investigador criminal conocer quién, dónde, cuándo, cómo, por qué y para qué se perpetró el delito y con qué medios nos estaremos acercando a la verdad de los hechos.
+	\item Previsión: Ninguna actividad, fase o proceso de la investigación criminal puede realizarse sin la previsión y el planeamiento para obtener en forma certera los resultados, deseados y esbozados, en el proceso investigativo. Cuanto más completa y exacta sea la investigación, tanto más cerca se estará de la solución de este problema.
+	\item Organización: La investigación criminal es una secuencia de pasos sistematizados que, con base en un orden lógico, metodológico y ordenado, permite al investigador y al criminalista conducir su mente a la consecución de los fines deseados.
+	\item Actividad analítica-sintética: La investigación criminal es una incesante actividad de análisis y síntesis continua; es decir, la descomposición de un problema en sus elementos que la integran, el análisis de esos elementos y que por inducción (e inferencia) se recomponen e interrelacionan para formular conclusiones menores y a partir de ellas por el mismo proceso de inferencia para extraer conclusiones lógicas y con base en realidades.
+	\item Legal: La investigación criminal, por ser conducida por un funcionario perteneciente a un organismo del Estado y tener competencia para ello, así como para estar encauzada dentro de la normativa vigente, es legal y se enmarca siempre con la norma (constitucional, penal, entre otras).
+\end{itemize}
+
+\subsection{Proceso de la investigación criminal}
+
+Las múltiples disciplinas del conocimiento humano para la consecución de sus objetivos y propósitos requiere la realización de un conjunto de actividades lógicas y secuenciales que facilitan la obtención de un objetivo. Para este caso, el método de la investigación científica
+del delito, no es sino el llamado «método general de la investigación científica».
+
+La investigación científica del delito puede asumir dos dimensiones y de hecho deben estar presentes; la primera se refiere al conjunto de procedimientos que se utilizan para explicar el fenómeno del delito, el delincuente, la víctima y las acciones del Estado, que permitirán
+disminuir los indicios de impunidad, aplicando con ellos conocimientos científicos y técnicos; es lo que se llama investigación criminológica y puede abarcar el estudio de diversos aspectos como la etiología, incidencia, relación, efectos, tendencias, etc. La segunda se refiere al proceso metodológico, contínuo, organizado, especializado y preciso de análisis y síntesis que el investigador criminal desarrolla respecto de los diversos aspectos que explique el acaecimiento de un delito, a fin de lograr con bases sólidas su esclarecimiento.
+
+\subsection{Pasos generales en la investigación criminal}
+
+Los pasos generales de la investigación criminal son
+los siguientes:
+\begin{itemize}
+	\item Observación: Es el proceso de percepción de objetos y procesos, la cual se hace en forma dirigida metódicamente. La observación es una actividad humana que debe practicarse al máximo para obtener buenos resultados. Muchas personas miran un lugar donde se ha cometido un crimen, pero no perciben la información que allí hay porque no han ejercido tal vez el sentido de observación y desconocen los procedimientos técnico-científicos que se pueden aplicar en un determinado momento, siendo los especialistas que
+	actúan en este campo los que con su experiencia desarrollan ciertas habilidades que les permite captar de forma objetiva la escena del crimen.
+	Los principios de la observación son los siguientes:
+	\begin{itemize}
+		\item Primer principio: Consiste en el propósito que tiene la observación tal como mirar ciertas variables o simplemente recrear nuestros sentidos.
+		\item Segundo principio: La observación es siempre sistemática
+		y lleva consigo un procedimiento, representado en un hábito o algo cada vez se hace más espontáneamente y de manera permanente, sin que ocupe mayor concentración.
+		Es importante descartar algunas suposiciones respecto de la observación. La primera consiste en que cuando se habla	de observar la confundimos con ver o con mirar. La	observación puede incluir todos nuestros sentidos.
+		\item Tercer principio: Los resultados siempre son descripciones
+		de características que simbolizamos mediante la escritura, producto de un proceso mental en el investigador.
+		\item Cuarto principio: La observación es una identificación
+		de las cualidades o elementos de un objeto o de una
+		situación.
+	\end{itemize}
+	\item Descripción: Expresar las observaciones es un subproducto de la observación y es el umbral necesario para el establecimiento de las explicaciones. La descripción responde a preguntas sobre el objeto o la situación observados y, por lo general, tiene el sentido de relacionar entre sí las características identificadas en la observación para ser comunicadas o para socializarlas.
+	La descripción da cuenta del objeto o situación como totalidad y permite relacionar sus elementos (características),
+	Describir es una actividad que requiere mucho esfuerzo y un procedimiento sistemático. Consta de una serie de acciones, operaciones de orden físico, mental o comunicativo, se trata en definitiva de relacionar los objetos que aparecen en el escenario.
+	\item Explicación: Implica establecer relaciones entre los rasgos de un objeto, situación o acontecimiento, para lo cual se utiliza
+	la información que da la observación y la descripción. 
+	Como consecuencia de lo observado y descrito, el investigador debe dar una explicación de lo que ha ocurrido.
+	\item Probabilidad: Significa poder anticipar, sobre la base de las explicaciones logradas acerca del comportamiento de los fenómenos,
+	la ocurrencia y modo de manifestarse, es lo que se denomina el modus operandi, que será diferente según el delito de que se trate.
+\end{itemize}
 
 \section{SNA en investigaciones criminales}
 
