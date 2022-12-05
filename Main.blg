@@ -49,45 +49,45 @@ Warning--I didn't find a database entry for "lin2010data"
 Warning--I didn't find a database entry for "carley2006destabilization"
 Warning--I didn't find a database entry for "newman2005measure"
 Warning--empty journal in santana2011redes
-You've used 26 entries,
+You've used 34 entries,
             2253 wiz_defined-function locations,
-            740 strings with 9266 characters,
-and the built_in function-call counts, 7775 in all, are:
-= -- 777
-> -- 290
+            784 strings with 10647 characters,
+and the built_in function-call counts, 10317 in all, are:
+= -- 1021
+> -- 386
 < -- 0
-+ -- 124
-- -- 94
-* -- 579
-:= -- 1261
-add.period$ -- 75
-call.type$ -- 26
-change.case$ -- 121
++ -- 166
+- -- 126
+* -- 754
+:= -- 1655
+add.period$ -- 98
+call.type$ -- 34
+change.case$ -- 159
 chr.to.int$ -- 0
-cite$ -- 27
-duplicate$ -- 286
-empty$ -- 670
-format.name$ -- 94
-if$ -- 1619
+cite$ -- 35
+duplicate$ -- 395
+empty$ -- 899
+format.name$ -- 126
+if$ -- 2164
 int.to.chr$ -- 0
-int.to.str$ -- 26
-missing$ -- 23
-newline$ -- 129
-num.names$ -- 54
-pop$ -- 124
+int.to.str$ -- 34
+missing$ -- 32
+newline$ -- 168
+num.names$ -- 70
+pop$ -- 179
 preamble$ -- 1
-purify$ -- 98
+purify$ -- 130
 quote$ -- 0
-skip$ -- 188
+skip$ -- 261
 stack$ -- 0
-substring$ -- 536
-swap$ -- 76
+substring$ -- 698
+swap$ -- 108
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 100
+type$ -- 128
 warning$ -- 1
-while$ -- 89
-width$ -- 28
-write$ -- 259
+while$ -- 116
+width$ -- 36
+write$ -- 337
 (There were 44 warnings)

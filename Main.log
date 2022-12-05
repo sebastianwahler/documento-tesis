@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.3.21)  5 NOV 2022 17:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.3.21)  5 DEC 2022 20:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1114,20 +1114,53 @@ LaTeX Info: Redefining \. on input line 114.
 LaTeX Info: Redefining \% on input line 114.
  [18]
 Cap\'{\i }tulo 4.
-(visualizacion.tex) [1
+(visualizacion.tex [1
 
 ]
-LaTeX Info: Redefining \. on input line 122.
-LaTeX Info: Redefining \% on input line 122.
- [2
+<images//modelo-lineal-representacion.png, id=212, 544.0325pt x 126.4725pt>
+File: images//modelo-lineal-representacion.png Graphic file (type png)
+<use images//modelo-lineal-representacion.png>
+Package pdftex.def Info: images//modelo-lineal-representacion.png  used on inpu
+t line 27.
+(pdftex.def)             Requested size: 426.79134pt x 99.2213pt.
+LaTeX Info: Redefining \. on input line 40.
+LaTeX Info: Redefining \% on input line 40.
+ [2]
+<images//ranking-precision-visualizacion.png, id=216, 277.53688pt x 331.73938pt
+>
+File: images//ranking-precision-visualizacion.png Graphic file (type png)
+<use images//ranking-precision-visualizacion.png>
+Package pdftex.def Info: images//ranking-precision-visualizacion.png  used on i
+nput line 43.
+(pdftex.def)             Requested size: 426.79134pt x 510.15129pt.
+<images//ranking-precision-visualizacion-2.png, id=217, 379.4175pt x 155.58125p
+t>
+File: images//ranking-precision-visualizacion-2.png Graphic file (type png)
+<use images//ranking-precision-visualizacion-2.png>
+Package pdftex.def Info: images//ranking-precision-visualizacion-2.png  used on
+ input line 60.
+(pdftex.def)             Requested size: 426.79134pt x 175.00946pt.
+LaTeX Info: Redefining \. on input line 66.
+LaTeX Info: Redefining \% on input line 66.
+ [3 <./images//modelo-lineal-representacion.png>]
+LaTeX Info: Redefining \. on input line 66.
+LaTeX Info: Redefining \% on input line 66.
 
-]
+[4 <./images//ranking-precision-visualizacion.png>]
+LaTeX Info: Redefining \. on input line 76.
+LaTeX Info: Redefining \% on input line 76.
+ [5 <./images//ranking-precision-visualizacion-2.png>])
+LaTeX Info: Redefining \. on input line 123.
+LaTeX Info: Redefining \% on input line 123.
+ [6]
 Cap\'{\i }tulo 5.
-(desarrollo.tex [1]
+(desarrollo.tex [1
+
+]
 LaTeX Info: Redefining \. on input line 27.
 LaTeX Info: Redefining \% on input line 27.
  [2]
-<images//hermanos-curruman.png, id=222, 1092.33093pt x 677.53125pt>
+<images//hermanos-curruman.png, id=240, 1092.33093pt x 677.53125pt>
 File: images//hermanos-curruman.png Graphic file (type png)
 <use images//hermanos-curruman.png>
 Package pdftex.def Info: images//hermanos-curruman.png  used on input line 34.
@@ -1170,7 +1203,7 @@ LaTeX Info: Redefining \% on input line 52.
 LaTeX Info: Redefining \. on input line 95.
 LaTeX Info: Redefining \% on input line 95.
  [6]
-<images//6nodos-pageRank-sinColor.png, id=241, 435.6275pt x 185.69376pt>
+<images//6nodos-pageRank-sinColor.png, id=260, 435.6275pt x 185.69376pt>
 File: images//6nodos-pageRank-sinColor.png Graphic file (type png)
 <use images//6nodos-pageRank-sinColor.png>
 Package pdftex.def Info: images//6nodos-pageRank-sinColor.png  used on input li
@@ -1185,13 +1218,13 @@ LaTeX Warning: Citation `ma2014exploring' on page 7 undefined on input line 140
 LaTeX Info: Redefining \. on input line 143.
 LaTeX Info: Redefining \% on input line 143.
  [8 <./images//6nodos-pageRank-sinColor.png>]
-<images//grafo-10-completo-ConColor.png, id=250, 682.80093pt x 529.98pt>
+<images//grafo-10-completo-ConColor.png, id=268, 682.80093pt x 529.98pt>
 File: images//grafo-10-completo-ConColor.png Graphic file (type png)
 <use images//grafo-10-completo-ConColor.png>
 Package pdftex.def Info: images//grafo-10-completo-ConColor.png  used on input 
 line 150.
 (pdftex.def)             Requested size: 426.79134pt x 331.2771pt.
-<images//BandaLCDs1.png, id=251, 711.4078pt x 598.48593pt>
+<images//BandaLCDs1.png, id=269, 711.4078pt x 598.48593pt>
 File: images//BandaLCDs1.png Graphic file (type png)
 <use images//BandaLCDs1.png>
 Package pdftex.def Info: images//BandaLCDs1.png  used on input line 163.
@@ -1201,8 +1234,8 @@ LaTeX Info: Redefining \. on input line 172.
 LaTeX Info: Redefining \% on input line 172.
  [10 <./images//grafo-10-completo-ConColor.png>] [11 <./images//BandaLCDs1.png>
 ])
-LaTeX Info: Redefining \. on input line 131.
-LaTeX Info: Redefining \% on input line 131.
+LaTeX Info: Redefining \. on input line 132.
+LaTeX Info: Redefining \% on input line 132.
  [12]
 Cap\'{\i }tulo 6.
 (conclusiones.tex
@@ -1222,8 +1255,8 @@ LaTeX Warning: Citation `newman2005measure' on page 14 undefined on input line
 LaTeX Info: Redefining \. on input line 25.
 LaTeX Info: Redefining \% on input line 25.
 [14]) [15]
-LaTeX Info: Redefining \. on input line 139.
-LaTeX Info: Redefining \% on input line 139.
+LaTeX Info: Redefining \. on input line 140.
+LaTeX Info: Redefining \% on input line 140.
  [16
 
 ]
@@ -1234,12 +1267,15 @@ LaTeX Info: Redefining \% on input line 1.
  [18
 
 ] [19]
-LaTeX Info: Redefining \. on input line 106.
-LaTeX Info: Redefining \% on input line 106.
- [20])
-LaTeX Info: Redefining \. on input line 149.
-LaTeX Info: Redefining \% on input line 149.
- [21] (Main.aux
+LaTeX Info: Redefining \. on input line 108.
+LaTeX Info: Redefining \% on input line 108.
+ [20]
+LaTeX Info: Redefining \. on input line 166.
+LaTeX Info: Redefining \% on input line 166.
+ [21])
+LaTeX Info: Redefining \. on input line 150.
+LaTeX Info: Redefining \% on input line 150.
+ [22] (Main.aux
 LaTeX Info: Redefining \. on input line 9.
 LaTeX Info: Redefining \% on input line 9.
 LaTeX Info: Redefining \. on input line 10.
@@ -1250,10 +1286,10 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 16403 strings out of 478582
- 327828 string characters out of 2843400
- 588034 words of memory out of 3000000
- 34199 multiletter control sequences out of 15000+600000
+ 16441 strings out of 478582
+ 329268 string characters out of 2843400
+ 588104 words of memory out of 3000000
+ 34234 multiletter control sequences out of 15000+600000
  491573 words of font info for 77 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,9n,94p,2246b,814s stack positions out of 10000i,1000n,20000p,200000b,80000s
@@ -1286,9 +1322,9 @@ ic/amsfonts/cm/cmmi12.pfb><C:/Users/swahler/AppData/Local/Programs/MiKTeX/fonts
 KTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/swahler/AppData/Local/P
 rograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/swahler/AppDat
 a/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on Main.pdf (74 pages, 4783517 bytes).
+Output written on Main.pdf (79 pages, 4879324 bytes).
 PDF statistics:
- 1024 PDF objects out of 1200 (max. 8388607)
+ 1050 PDF objects out of 1200 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 108 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 123 words of extra memory for PDF output out of 10000 (max. 10000000)
 

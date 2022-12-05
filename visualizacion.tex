@@ -1,0 +1,82 @@
+La visualización es el proceso por el cual se crea una representación visual interactiva a partir de un conjunto de datos. Una visualización exitosa provee una representación que permite ganar "insight" de los datos o comunicar aspectos de los mismos de manera efectiva (\cite{griffin1987semiology}, \cite{tufte1985visual}, \cite{cleveland1985elements}). La visualización es clave en las ciencias y las ingenierías y es utilizada con amplios propósitos. De acuerdo a Bergeron (\cite{butler1993visualization}), "una visualización tiene como objetivo describir, analizar y explorar un conjunto de datos".
+
+La visualización de datos lo que intenta hacer es aprovechar nuestra enorme capacidad de analítica visual, para hacer accesibles esas relaciones, esa información, de esos conjuntos de datos abstractos a nuestro entendimiento. En la visualización de datos básicamente lo que hemos de hacer es codificar o traducir a un lenguaje visual, a un lenguaje entendible por nuestra cognición, por nuestra mente, toda esa información.
+
+\section{Automatización}
+
+La visualización, como la conocemos hoy, tuvo sus inicios a finales de los '40. Desde ese momento hasta la actualidad se puede apreciar que para obtener una visualización efectiva, el proceso de visualización requiere del usuario conocimientos específicos de áreas como diseño gráfico, psicología, interacción humano-computadora, etc. No sólo son necesarios estos conocimientos, sino también la capacidad de combinarlos en forma adecuada.
+
+En 1994, Roth et. al (\cite{roth1994interactive}) detectaron este problema e identificaron tres limitaciones en los paquetes gráficos del momento que, en diferente medida, aún son válidas hasta el día de hoy:
+
+1. No permiten integrar vistas para ver las relaciones entre distintos conjuntos de datos.
+
+2. Tienen interfaces gráficas complejas.
+
+3. No guían al usuario en el proceso de creación de visualizaciones. La calidad de la visualización depende de los conocimientos y habilidades del usuario en el área.
+
+Los problemas detectados, particularmente el detallado en el ítem 3, presentan una clara intersección con la motivación de esta tesis. Se puede ver entonces que dichos problemas han estado presentes entre nosotros, e identificados, desde hace mucho tiempo y sin embargo aún no han sido solucionados exitosamente.
+
+En 1986 Jock Mackinlay estableció como objetivo el desarrollo de una aplicación para automatizar la creación de representaciones gráficas (\cite{mackinlay1986automating}). Según este autor, el usuario no siempre tiene el conocimiento necesario para crear una buena representación.
+Mackinlay se basó en la idea de que una representación gráfica es una expresión en un lenguaje gráfico, donde ese lenguaje se encuentra definido formalmente. Si bien Mackinlay estableció limitaciones al alcance de su trabajo, sólo representaciones 2D, es la primera referencia en cuanto a la creación de un proceso automático de visualización. Como se podrá apreciar al concluir esta sección, los trabajos desarrollados en los últimos años sobre la automatización de este proceso, toman como base fundamental el trabajo presentado por Mackinlay.
+
+Mackinlay pensó un sistema, al cual denominó Presentation Tool, que pudiese sintetizar un diseño gráfico y renderizar una imagen a partir de un conjunto de datos de entrada (Figura \ref{fig:modelo-lineal-representaciones}). En el contexto de su trabajo, un diseño gráfico es una descripción abstracta, una indicación de las técnicas, variaciones de color, posición en el eje, etc., que
+se utilizaron para codificar la información.
+
+\begin{figure}
+	\centering
+	\includegraphics[width=\textwidth]{modelo-lineal-representacion.png}
+	\caption{Modelo lineal para la generación de representaciones (\cite{mackinlay1986automating}). Un diseño gráfico es sintetizado por la aplicación para crear las representaciones y a su vez es utilizado para la renderización de la visualización.} 
+	\label{fig:modelo-lineal-representaciones}
+\end{figure}
+
+El usuario no siempre tiene el conocimiento necesario para crear una buena representación; sin embargo, esta afirmación plantea dos grandes inquietudes:
+
+¿Qué es una buena representación y cómo se sabe si ésta es efectiva o no?
+
+Si se tuviese una forma de saber qué es una buena representación, ¿cómo se codifican dichas características para ser procesadas por un sistema en forma automática?
+
+Para responder a la primera pregunta, Mackinlay se basó en el trabajo realizado por Cleveland y McGill (\cite{cleveland1984graphical}). En dicho trabajo se establece un ranking de tareas perceptuales (Figura \ref{fig:ranking-precision-visualizacion}); este ranking se ordena en función de la precisión con la que se puede diferenciar la información representada: a mayor nivel en el ranking, mayor precisión. De esta forma, Cleveland y McGill reconocen que un usuario podrá diferenciar
+con mayor precisión información representada mediante posiciones que mediante color.
+
+\begin{figure}
+	\centering
+	\includegraphics[width=\textwidth]{ranking-precision-visualizacion.png}
+	\caption{Ranking de precisión para tareas perceptuales presentado por Cleveland y McGill (\cite{cleveland1984graphical}).} 
+	\label{fig:ranking-precision-visualizacion}
+\end{figure}
+
+Mackinlay reconoció la validez del ranking presentado pero a su vez señaló que dicho ranking variaba de acuerdo al tipo de dato que se quería representar. Es por esto que Mackinlay creó tres rankings, uno para cada tipo de dato, cuantitativo, ordinal y nominal (Figura \ref{fig:ranking-precision-visualizacion-2}). Utilizando estos nuevos rankings Mackinlay obtuvo una mejor herramienta para poder comparar y evaluar una representación.
+
+Para poder formalizar esta forma de comparar representaciones Mackinlay definió una métrica denominada efectividad:
+
+Effectivity: Identify which of a serie of graphical languages, in a given situation, is the most effective at exploiting the capabilities of the output medium and the human visual system (\cite{mackinlay1986automating}).
+
+Mackinlay reconoce que esta métrica es una medida muy relativa. Puede argumentarse que una representación es efectiva si es renderizada rápidamente o con pocos recursos.
+
+Mackinlay tomó la decisión de considerar que una representación es efectiva cuando puede ser interpretada en forma precisa. De la definición presentada es importante destacar que la métrica de efectividad no depende solamente de la representación visual sino también de los siguientes factores:
+
+\begin{figure}
+	\centering
+	\includegraphics[width=\textwidth]{ranking-precision-visualizacion-2.png}
+	\caption{Ranking de precisión para tareas perceptuales presentado por Mackinlay ((\cite{mackinlay1986automating})). Las palabras sombreadas son aquéllas que no se aplican para el tipo de dato en particular.} 
+	\label{fig:ranking-precision-visualizacion-2}
+\end{figure}
+
+La situación en la que ocurre la representación. Mackinlay escribió in a given situation destacando la importancia del contexto en el que el usuario interactúa con la representación.
+
+El medio sobre el cual se realiza la representación. La definición de la métrica incluye la siguiente expresión: the capabilities of the output medium indicando la importancia que tiene el conocer las características del medio de salida.
+
+La importancia del humano y sus características al momento de evaluar una representación. Este reconocimiento se observa en la definición de efectividad al incluir las capacidades del sistema visual del humano, at exploiting the capabilities of the... and the human visual system.
+Al observar la definición de efectividad podemos ver cómo Mackinlay establece la necesidad de caracterizar al usuario, que es quien va a utilizar la visualización, a las tareas, que se llevarán a cabo con la visualización, y al contexto, que constituye el ambiente en el cual ocurre la visualización. Estos tres elementos, conocidos como triada
+de caracterizaciones, se continuaron estudiando y hoy en día son una pieza fundamental en el área de Interacción Humano-Computadora (\cite{baecker2014readings}).
+
+El segundo problema que tuvo que resolver Mackinlay fue el de cómo decidir codificar estas reglas de representación para que pudieran ser utilizadas por un sistema autom´atico. Enfoc´andose solamente en representaciones 2D de datos relacionales, Mackinlay reconoció la necesidad de contar con un lenguaje formal que describiese las
+propiedades sintácticas de una representación. Sin embargo, en lugar de utilizar un solo lenguaje de alta complejidad, definió una serie de lenguajes más simples (Figuras \ref{fig:modelo-lineal-representaciones} y \ref{fig:ranking-precision-visualizacion}) con objetivos más específicos y un conjunto de primitivas a través de las cuales pudiesen
+ser combinados. Para ello definió una serie de operadores de composición utilizando un álgebra de composición.
+
+En este caso Mackinlay definió una métrica adicional denominada expresividad, aplicable sobre un lenguaje, de la siguiente manera:
+
+Expressivity: Identify graphical languages that express the desired information.
+
+La expresividad se asocia a cada lenguaje; cuando un lenguaje incluye toda y solamente toda la información que se quiere representar se dice que cumple con el criterio de expresividad. Un lenguaje que agregue información que el usuario no indicó que quiere representar o que quitase información que el usuario quiere representar se dice que no
+cumple con este criterio.

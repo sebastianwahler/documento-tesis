@@ -1,5 +1,10 @@
 \begin{thebibliography}{10}
 
+\bibitem{baecker2014readings}
+{\sc Baecker, R.~M.}
+\newblock {\em Readings in Human-Computer Interaction: toward the year 2000}.
+\newblock Elsevier, 2014.
+
 \bibitem{baeza2004web}
 {\sc Baeza-Yates, R., and Davis, E.}
 \newblock Web page ranking using link attributes.
@@ -21,6 +26,13 @@
 {\sc Bondarenko, A., Dung, P.~M., Kowalski, R., and Toni, F.}
 \newblock {A}n abstract argumentation--theoretic approach to default reasoning.
 \newblock {\em Artificial Intelligence 93}, 1--2 (1997), 63--101.
+
+\bibitem{butler1993visualization}
+{\sc Butler, D.~M., Almond, J.~C., Bergeron, R.~D., Brodlie, K.~W., and Haber,
+  R.~B.}
+\newblock Visualization reference models.
+\newblock In {\em Proceedings of the 4th conference on Visualization'93\/}
+  (1993), pp.~337--342.
 
 \bibitem{Capobianco:1999}
 {\sc Capobianco, M.}
@@ -58,6 +70,18 @@
 \newblock The spread of obesity in a large social network over 32 years.
 \newblock {\em New England journal of medicine 357}, 4 (2007), 370--379.
 
+\bibitem{cleveland1985elements}
+{\sc Cleveland, W.~S.}
+\newblock {\em The elements of graphing data}.
+\newblock Wadsworth Publ. Co., 1985.
+
+\bibitem{cleveland1984graphical}
+{\sc Cleveland, W.~S., and McGill, R.}
+\newblock Graphical perception: Theory, experimentation, and application to the
+  development of graphical methods.
+\newblock {\em Journal of the American statistical association 79}, 387 (1984),
+  531--554.
+
 \bibitem{colina2011homofilia}
 {\sc Colina, C.~L., and Verd, J.~M.}
 \newblock De la homofilia a la cohesi{\'o}n social y viceversa.
@@ -93,6 +117,12 @@
 \newblock Master's thesis, Departamento de Ciencias de la Computaci{\'o}n,
   Universidad Nacional del Sur, Bah{\'{\i}}a Blanca, Argentina, July 1997.
 
+\bibitem{griffin1987semiology}
+{\sc Griffin, T.}
+\newblock Semiology of graphics: diagrams, networks, maps. bertin, jacques
+  (trans. w. j. berg). the university of wisconsin press, madison, 1983. 416
+  pages. isbn 0 299 09060 4., 1987.
+
 \bibitem{Haenni:1998}
 {\sc Haenni, R.}
 \newblock Modeling uncertainty with propositional assumption-based systems.
@@ -108,6 +138,12 @@
 {\sc Lozares~Colina, C.}
 \newblock La teor{\'\i}a de redes sociales.
 \newblock {\em Papers: revista de sociolog{\'\i}a}, 48 (1996), 103--126.
+
+\bibitem{mackinlay1986automating}
+{\sc Mackinlay, J.}
+\newblock Automating the design of graphical presentations of relational
+  information.
+\newblock {\em Acm Transactions On Graphics (Tog) 5}, 2 (1986), 110--141.
 
 \bibitem{medina2011definicion}
 {\sc Medina, J. I. G.-V.}
@@ -133,6 +169,12 @@
 \newblock {\em The theory of social structure}.
 \newblock Routledge, 2013.
 
+\bibitem{roth1994interactive}
+{\sc Roth, S.~F., Kolojejchick, J., Mattis, J., and Goldstein, J.}
+\newblock Interactive graphic design using automatic presentation knowledge.
+\newblock In {\em Proceedings of the SIGCHI conference on Human factors in
+  computing systems\/} (1994), pp.~112--117.
+
 \bibitem{santana2011redes}
 {\sc Santana, M., Cabello, J., Cubas, R., and Medina, V.}
 \newblock Redes sociales como soporte a la gesti{\'o}n del conocimiento.
@@ -141,6 +183,11 @@
 {\sc Scott, J.}
 \newblock Social network analysis: developments, advances, and prospects.
 \newblock {\em Social network analysis and mining 1}, 1 (2011), 21--26.
+
+\bibitem{tufte1985visual}
+{\sc Tufte, E.~R.}
+\newblock The visual display of quantitative information.
+\newblock {\em The Journal for Healthcare Quality (JHQ) 7}, 3 (1985), 15.
 
 \bibitem{wasserman1994social}
 {\sc Wasserman, S., and Faust, K.}
